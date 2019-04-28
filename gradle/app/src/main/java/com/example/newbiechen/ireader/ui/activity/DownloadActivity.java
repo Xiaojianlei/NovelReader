@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.app.Service;
 import android.content.ComponentName;
@@ -9,18 +9,18 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.DownloadTaskBean;
-import com.example.newbiechen.ireader.service.DownloadService;
-import com.example.newbiechen.ireader.ui.adapter.DownLoadAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseActivity;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.DownloadTaskBean;
+import com.test.xiaojian.simple_reader.service.DownloadService;
+import com.test.xiaojian.simple_reader.ui.adapter.DownLoadAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseActivity;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
 
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-5-11.
+ * Created by xiaojian on 17-5-11.
  * 下载面板
  */
 

@@ -1,16 +1,16 @@
-package com.example.newbiechen.ireader.presenter;
+package com.test.xiaojian.simple_reader.presenter;
 
 import android.util.Log;
 
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
-import com.example.newbiechen.ireader.model.bean.BookDetailBean;
-import com.example.newbiechen.ireader.model.bean.CollBookBean;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.model.remote.RemoteRepository;
-import com.example.newbiechen.ireader.presenter.contract.BookDetailContract;
-import com.example.newbiechen.ireader.ui.base.RxPresenter;
-import com.example.newbiechen.ireader.utils.LogUtils;
-import com.example.newbiechen.ireader.utils.MD5Utils;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.model.bean.BookDetailBean;
+import com.test.xiaojian.simple_reader.model.bean.CollBookBean;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.model.remote.RemoteRepository;
+import com.test.xiaojian.simple_reader.presenter.contract.BookDetailContract;
+import com.test.xiaojian.simple_reader.ui.base.RxPresenter;
+import com.test.xiaojian.simple_reader.utils.LogUtils;
+import com.test.xiaojian.simple_reader.utils.MD5Utils;
 
 import io.reactivex.SingleObserver;
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -18,7 +18,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by newbiechen on 17-5-4.
+ * Created by xiaojian on 17-5-4.
  */
 
 public class BookDetailPresenter extends RxPresenter<BookDetailContract.View>

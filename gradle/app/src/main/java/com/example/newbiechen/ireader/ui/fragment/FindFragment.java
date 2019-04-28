@@ -1,26 +1,26 @@
-package com.example.newbiechen.ireader.ui.fragment;
+package com.test.xiaojian.simple_reader.ui.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.SectionBean;
-import com.example.newbiechen.ireader.model.flag.FindType;
-import com.example.newbiechen.ireader.ui.activity.BillboardActivity;
-import com.example.newbiechen.ireader.ui.activity.BookListActivity;
-import com.example.newbiechen.ireader.ui.activity.BookSortActivity;
-import com.example.newbiechen.ireader.ui.adapter.SectionAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseFragment;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.SectionBean;
+import com.test.xiaojian.simple_reader.model.flag.FindType;
+import com.test.xiaojian.simple_reader.ui.activity.BillboardActivity;
+import com.test.xiaojian.simple_reader.ui.activity.BookListActivity;
+import com.test.xiaojian.simple_reader.ui.activity.BookSortActivity;
+import com.test.xiaojian.simple_reader.ui.adapter.SectionAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseFragment;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
 
 import java.util.ArrayList;
 
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-4-15.
+ * Created by xiaojian on 17-4-15.
  */
 
 public class FindFragment extends BaseFragment {

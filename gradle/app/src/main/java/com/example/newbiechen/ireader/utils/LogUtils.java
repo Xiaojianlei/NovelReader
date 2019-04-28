@@ -1,10 +1,10 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 import android.content.Context;
 import android.os.Environment;
 import android.util.Log;
 
-import com.example.newbiechen.ireader.App;
+import com.test.xiaojian.simple_reader.App;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -15,7 +15,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * Created by newbiechen on 17-4-27.
+ * Created by xiaojian on 17-4-27.
  */
 
 public class LogUtils {

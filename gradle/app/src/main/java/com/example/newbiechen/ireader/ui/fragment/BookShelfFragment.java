@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.fragment;
+package com.test.xiaojian.simple_reader.ui.fragment;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -11,24 +11,24 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.RxBus;
-import com.example.newbiechen.ireader.event.DeleteResponseEvent;
-import com.example.newbiechen.ireader.event.DeleteTaskEvent;
-import com.example.newbiechen.ireader.event.DownloadMessage;
-import com.example.newbiechen.ireader.event.RecommendBookEvent;
-import com.example.newbiechen.ireader.model.bean.CollBookBean;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.presenter.BookShelfPresenter;
-import com.example.newbiechen.ireader.presenter.contract.BookShelfContract;
-import com.example.newbiechen.ireader.ui.activity.ReadActivity;
-import com.example.newbiechen.ireader.ui.adapter.CollBookAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPFragment;
-import com.example.newbiechen.ireader.utils.RxUtils;
-import com.example.newbiechen.ireader.utils.ToastUtils;
-import com.example.newbiechen.ireader.widget.adapter.WholeAdapter;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
-import com.example.newbiechen.ireader.widget.refresh.ScrollRefreshRecyclerView;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.RxBus;
+import com.test.xiaojian.simple_reader.event.DeleteResponseEvent;
+import com.test.xiaojian.simple_reader.event.DeleteTaskEvent;
+import com.test.xiaojian.simple_reader.event.DownloadMessage;
+import com.test.xiaojian.simple_reader.event.RecommendBookEvent;
+import com.test.xiaojian.simple_reader.model.bean.CollBookBean;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.presenter.BookShelfPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.BookShelfContract;
+import com.test.xiaojian.simple_reader.ui.activity.ReadActivity;
+import com.test.xiaojian.simple_reader.ui.adapter.CollBookAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPFragment;
+import com.test.xiaojian.simple_reader.utils.RxUtils;
+import com.test.xiaojian.simple_reader.utils.ToastUtils;
+import com.test.xiaojian.simple_reader.widget.adapter.WholeAdapter;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.widget.refresh.ScrollRefreshRecyclerView;
 
 import java.io.File;
 import java.util.List;
@@ -38,7 +38,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by newbiechen on 17-4-15.
+ * Created by xiaojian on 17-4-15.
  */
 
 public class BookShelfFragment extends BaseMVPFragment<BookShelfContract.Presenter>

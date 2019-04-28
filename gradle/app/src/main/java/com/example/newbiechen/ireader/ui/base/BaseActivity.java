@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.base;
+package com.test.xiaojian.simple_reader.ui.base;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,9 +14,9 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.example.newbiechen.ireader.BuildConfig;
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.utils.StatusBarCompat;
+import com.test.xiaojian.simple_reader.BuildConfig;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.utils.StatusBarCompat;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;

@@ -1,16 +1,16 @@
-package com.example.newbiechen.ireader.presenter;
+package com.test.xiaojian.simple_reader.presenter;
 
 
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
-import com.example.newbiechen.ireader.model.bean.ChapterInfoBean;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.model.remote.RemoteRepository;
-import com.example.newbiechen.ireader.presenter.contract.ReadContract;
-import com.example.newbiechen.ireader.ui.base.RxPresenter;
-import com.example.newbiechen.ireader.utils.LogUtils;
-import com.example.newbiechen.ireader.utils.MD5Utils;
-import com.example.newbiechen.ireader.utils.RxUtils;
-import com.example.newbiechen.ireader.widget.page.TxtChapter;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.model.bean.ChapterInfoBean;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.model.remote.RemoteRepository;
+import com.test.xiaojian.simple_reader.presenter.contract.ReadContract;
+import com.test.xiaojian.simple_reader.ui.base.RxPresenter;
+import com.test.xiaojian.simple_reader.utils.LogUtils;
+import com.test.xiaojian.simple_reader.utils.MD5Utils;
+import com.test.xiaojian.simple_reader.utils.RxUtils;
+import com.test.xiaojian.simple_reader.widget.page.TxtChapter;
 
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
@@ -26,7 +26,7 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by newbiechen on 17-5-16.
+ * Created by xiaojian on 17-5-16.
  */
 
 public class ReadPresenter extends RxPresenter<ReadContract.View>

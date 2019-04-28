@@ -1,9 +1,9 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
 
-import com.example.newbiechen.ireader.model.gen.AuthorBeanDao;
-import com.example.newbiechen.ireader.model.gen.BookCommentBeanDao;
-import com.example.newbiechen.ireader.model.gen.DaoSession;
+import com.test.xiaojian.simple_reader.model.gen.AuthorBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.BookCommentBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.DaoSession;
 
 import org.greenrobot.greendao.DaoException;
 import org.greenrobot.greendao.annotation.Entity;
@@ -13,7 +13,7 @@ import org.greenrobot.greendao.annotation.Index;
 import org.greenrobot.greendao.annotation.ToOne;
 
 /**
- * Created by newbiechen on 17-4-20.
+ * Created by xiaojian on 17-4-20.
  */
 @Entity(
         indexes = {

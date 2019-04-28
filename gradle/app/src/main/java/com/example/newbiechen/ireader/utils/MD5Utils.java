@@ -1,7 +1,7 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 /**
- * Created by newbiechen on 2018/1/1.
+ * Created by xiaojian on 2018/1/1.
  */
 
 import java.security.MessageDigest;

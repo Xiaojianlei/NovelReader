@@ -1,17 +1,17 @@
-package com.example.newbiechen.ireader.ui.adapter.view;
+package com.test.xiaojian.simple_reader.ui.adapter.view;
 
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.widget.TextView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
-import com.example.newbiechen.ireader.utils.BookManager;
-import com.example.newbiechen.ireader.ui.base.adapter.ViewHolderImpl;
-import com.example.newbiechen.ireader.widget.page.TxtChapter;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.utils.BookManager;
+import com.test.xiaojian.simple_reader.ui.base.adapter.ViewHolderImpl;
+import com.test.xiaojian.simple_reader.widget.page.TxtChapter;
 
 /**
- * Created by newbiechen on 17-5-16.
+ * Created by xiaojian on 17-5-16.
  */
 
 public class CategoryHolder extends ViewHolderImpl<TxtChapter> {

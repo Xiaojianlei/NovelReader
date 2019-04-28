@@ -1,12 +1,12 @@
-package com.example.newbiechen.ireader.ui.adapter;
+package com.test.xiaojian.simple_reader.ui.adapter;
 
-import com.example.newbiechen.ireader.model.bean.packages.SearchBookPackage;
-import com.example.newbiechen.ireader.ui.adapter.view.SearchBookHolder;
-import com.example.newbiechen.ireader.ui.base.adapter.BaseListAdapter;
-import com.example.newbiechen.ireader.ui.base.adapter.IViewHolder;
+import com.test.xiaojian.simple_reader.model.bean.packages.SearchBookPackage;
+import com.test.xiaojian.simple_reader.ui.adapter.view.SearchBookHolder;
+import com.test.xiaojian.simple_reader.ui.base.adapter.BaseListAdapter;
+import com.test.xiaojian.simple_reader.ui.base.adapter.IViewHolder;
 
 /**
- * Created by newbiechen on 17-6-2.
+ * Created by xiaojian on 17-6-2.
  */
 
 public class SearchBookAdapter extends BaseListAdapter<SearchBookPackage.BooksBean>{

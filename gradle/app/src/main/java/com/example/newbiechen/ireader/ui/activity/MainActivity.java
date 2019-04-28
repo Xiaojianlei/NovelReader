@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.Manifest;
 import android.app.Dialog;
@@ -16,15 +16,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.ui.base.BaseTabActivity;
-import com.example.newbiechen.ireader.ui.fragment.BookShelfFragment;
-import com.example.newbiechen.ireader.ui.fragment.FindFragment;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.utils.PermissionsChecker;
-import com.example.newbiechen.ireader.utils.SharedPreUtils;
-import com.example.newbiechen.ireader.ui.dialog.SexChooseDialog;
-import com.example.newbiechen.ireader.utils.ToastUtils;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.ui.base.BaseTabActivity;
+import com.test.xiaojian.simple_reader.ui.fragment.BookShelfFragment;
+import com.test.xiaojian.simple_reader.ui.fragment.FindFragment;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.PermissionsChecker;
+import com.test.xiaojian.simple_reader.utils.SharedPreUtils;
+import com.test.xiaojian.simple_reader.ui.dialog.SexChooseDialog;
+import com.test.xiaojian.simple_reader.utils.ToastUtils;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

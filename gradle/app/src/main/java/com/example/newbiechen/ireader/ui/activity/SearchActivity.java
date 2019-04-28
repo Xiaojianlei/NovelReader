@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
@@ -13,15 +13,15 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.packages.SearchBookPackage;
-import com.example.newbiechen.ireader.presenter.SearchPresenter;
-import com.example.newbiechen.ireader.presenter.contract.SearchContract;
-import com.example.newbiechen.ireader.ui.adapter.KeyWordAdapter;
-import com.example.newbiechen.ireader.ui.adapter.SearchBookAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPActivity;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.packages.SearchBookPackage;
+import com.test.xiaojian.simple_reader.presenter.SearchPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.SearchContract;
+import com.test.xiaojian.simple_reader.ui.adapter.KeyWordAdapter;
+import com.test.xiaojian.simple_reader.ui.adapter.SearchBookAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPActivity;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
 
 import java.util.List;
 
@@ -29,7 +29,7 @@ import butterknife.BindView;
 import me.gujun.android.taggroup.TagGroup;
 
 /**
- * Created by newbiechen on 17-4-24.
+ * Created by xiaojian on 17-4-24.
  */
 
 public class SearchActivity extends BaseMVPActivity<SearchContract.Presenter>

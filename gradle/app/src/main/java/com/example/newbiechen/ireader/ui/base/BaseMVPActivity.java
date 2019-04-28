@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.base;
+package com.test.xiaojian.simple_reader.ui.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,7 +7,7 @@ import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by newbiechen on 17-4-25.
+ * Created by xiaojian on 17-4-25.
  */
 
 public abstract class BaseMVPActivity<T extends BaseContract.BasePresenter> extends BaseActivity{

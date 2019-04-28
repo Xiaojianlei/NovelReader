@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.base;
+package com.test.xiaojian.simple_reader.ui.base;
 
 import android.view.View;
 import android.view.ViewGroup;

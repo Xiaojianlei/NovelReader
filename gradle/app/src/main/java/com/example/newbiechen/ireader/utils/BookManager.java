@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 
 import java.io.File;
@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by newbiechen on 17-5-20.
+ * Created by xiaojian on 17-5-20.
  * 处理书籍的工具类，配合PageFactory使用
  * 已弃用，
  */

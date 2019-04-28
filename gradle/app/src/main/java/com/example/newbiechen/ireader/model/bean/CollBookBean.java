@@ -1,12 +1,12 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
 import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.util.Log;
 
-import com.example.newbiechen.ireader.App;
-import com.example.newbiechen.ireader.utils.StringUtils;
+import com.test.xiaojian.simple_reader.App;
+import com.test.xiaojian.simple_reader.utils.StringUtils;
 import com.google.gson.annotations.SerializedName;
 
 import org.greenrobot.greendao.annotation.Entity;
@@ -19,12 +19,12 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import org.greenrobot.greendao.DaoException;
-import com.example.newbiechen.ireader.model.gen.DaoSession;
-import com.example.newbiechen.ireader.model.gen.BookChapterBeanDao;
-import com.example.newbiechen.ireader.model.gen.CollBookBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.DaoSession;
+import com.test.xiaojian.simple_reader.model.gen.BookChapterBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.CollBookBeanDao;
 
 /**
- * Created by newbiechen on 17-5-8.
+ * Created by xiaojian on 17-5-8.
  * 收藏的书籍
  */
 @Entity

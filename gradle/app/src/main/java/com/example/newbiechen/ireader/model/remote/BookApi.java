@@ -1,32 +1,32 @@
-package com.example.newbiechen.ireader.model.remote;
+package com.test.xiaojian.simple_reader.model.remote;
 
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
-import com.example.newbiechen.ireader.model.bean.BookDetailBean;
-import com.example.newbiechen.ireader.model.bean.ChapterInfoBean;
-import com.example.newbiechen.ireader.model.bean.packages.BillBookPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BillboardPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BookChapterPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BookHelpsPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BookListDetailPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BookListPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BookReviewPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BookCommentPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BookSortPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BookSubSortPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BookTagPackage;
-import com.example.newbiechen.ireader.model.bean.packages.ChapterInfoPackage;
-import com.example.newbiechen.ireader.model.bean.packages.CommentDetailPackage;
-import com.example.newbiechen.ireader.model.bean.packages.CommentsPackage;
-import com.example.newbiechen.ireader.model.bean.packages.HelpsDetailPackage;
-import com.example.newbiechen.ireader.model.bean.packages.HotCommentPackage;
-import com.example.newbiechen.ireader.model.bean.packages.HotWordPackage;
-import com.example.newbiechen.ireader.model.bean.packages.KeyWordPackage;
-import com.example.newbiechen.ireader.model.bean.packages.RecommendBookListPackage;
-import com.example.newbiechen.ireader.model.bean.packages.RecommendBookPackage;
-import com.example.newbiechen.ireader.model.bean.packages.ReviewDetailPackage;
-import com.example.newbiechen.ireader.model.bean.packages.SearchBookPackage;
-import com.example.newbiechen.ireader.model.bean.packages.SortBookPackage;
-import com.example.newbiechen.ireader.model.bean.packages.TagSearchPackage;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.model.bean.BookDetailBean;
+import com.test.xiaojian.simple_reader.model.bean.ChapterInfoBean;
+import com.test.xiaojian.simple_reader.model.bean.packages.BillBookPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BillboardPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookChapterPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookHelpsPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookListDetailPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookListPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookReviewPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookCommentPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookSortPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookSubSortPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookTagPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.ChapterInfoPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.CommentDetailPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.CommentsPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.HelpsDetailPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.HotCommentPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.HotWordPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.KeyWordPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.RecommendBookListPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.RecommendBookPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.ReviewDetailPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.SearchBookPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.SortBookPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.TagSearchPackage;
 
 import io.reactivex.Observable;
 import io.reactivex.Single;
@@ -36,7 +36,7 @@ import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 /**
- * Created by newbiechen on 17-4-20.
+ * Created by xiaojian on 17-4-20.
  */
 
 public interface BookApi {

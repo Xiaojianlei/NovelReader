@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.fragment;
+package com.test.xiaojian.simple_reader.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,21 +12,21 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.CommentBean;
-import com.example.newbiechen.ireader.model.bean.CommentDetailBean;
-import com.example.newbiechen.ireader.presenter.CommentDetailPresenter;
-import com.example.newbiechen.ireader.presenter.contract.CommentDetailContract;
-import com.example.newbiechen.ireader.ui.adapter.CommentAdapter;
-import com.example.newbiechen.ireader.ui.adapter.GodCommentAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPFragment;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.utils.StringUtils;
-import com.example.newbiechen.ireader.widget.BookTextView;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
-import com.example.newbiechen.ireader.widget.adapter.WholeAdapter;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
-import com.example.newbiechen.ireader.widget.transform.CircleTransform;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.CommentBean;
+import com.test.xiaojian.simple_reader.model.bean.CommentDetailBean;
+import com.test.xiaojian.simple_reader.presenter.CommentDetailPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.CommentDetailContract;
+import com.test.xiaojian.simple_reader.ui.adapter.CommentAdapter;
+import com.test.xiaojian.simple_reader.ui.adapter.GodCommentAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPFragment;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.StringUtils;
+import com.test.xiaojian.simple_reader.widget.BookTextView;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.widget.adapter.WholeAdapter;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.widget.transform.CircleTransform;
 
 import java.util.List;
 
@@ -35,7 +35,7 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 /**
- * Created by newbiechen on 17-4-29.
+ * Created by xiaojian on 17-4-29.
  * 综合评论区 + 书荒互助区详情
  */
 

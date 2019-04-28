@@ -1,10 +1,10 @@
-package com.example.newbiechen.ireader.presenter.contract;
+package com.test.xiaojian.simple_reader.presenter.contract;
 
-import com.example.newbiechen.ireader.model.bean.packages.BillboardPackage;
-import com.example.newbiechen.ireader.ui.base.BaseContract;
+import com.test.xiaojian.simple_reader.model.bean.packages.BillboardPackage;
+import com.test.xiaojian.simple_reader.ui.base.BaseContract;
 
 /**
- * Created by newbiechen on 17-4-23.
+ * Created by xiaojian on 17-4-23.
  */
 
 public interface BillboardContract {

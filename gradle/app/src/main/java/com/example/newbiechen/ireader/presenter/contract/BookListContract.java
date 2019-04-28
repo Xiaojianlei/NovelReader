@@ -1,14 +1,14 @@
-package com.example.newbiechen.ireader.presenter.contract;
+package com.test.xiaojian.simple_reader.presenter.contract;
 
-import com.example.newbiechen.ireader.model.bean.BookListBean;
-import com.example.newbiechen.ireader.model.bean.BookListDetailBean;
-import com.example.newbiechen.ireader.model.flag.BookListType;
-import com.example.newbiechen.ireader.ui.base.BaseContract;
+import com.test.xiaojian.simple_reader.model.bean.BookListBean;
+import com.test.xiaojian.simple_reader.model.bean.BookListDetailBean;
+import com.test.xiaojian.simple_reader.model.flag.BookListType;
+import com.test.xiaojian.simple_reader.ui.base.BaseContract;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-5-1.
+ * Created by xiaojian on 17-5-1.
  */
 
 public interface BookListContract {

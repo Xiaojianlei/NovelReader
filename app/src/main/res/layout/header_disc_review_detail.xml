@@ -61,7 +61,7 @@
 					android:textColor="@color/nb.text.common_h2"
 					android:textSize="13sp" />
 				
-				<com.example.newbiechen.ireader.widget.EasyRatingBar
+				<com.test.xiaojian.simple_reader.widget.EasyRatingBar
 					android:id="@+id/review_detail_erb_rate"
 					android:layout_width="wrap_content"
 					android:layout_height="28dp"

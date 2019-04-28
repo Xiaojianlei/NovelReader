@@ -1,10 +1,10 @@
-package com.example.newbiechen.ireader;
+package com.test.xiaojian.simple_reader;
 
 import io.reactivex.Observable;
 import io.reactivex.subjects.PublishSubject;
 
 /**
- * Created by newbiechen on 17-4-18.
+ * Created by xiaojian on 17-4-18.
  * 原理:PublishSubject本身作为观察者和被观察者。
  */
 

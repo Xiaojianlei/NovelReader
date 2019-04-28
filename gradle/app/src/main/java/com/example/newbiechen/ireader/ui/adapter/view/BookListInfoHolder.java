@@ -1,16 +1,16 @@
-package com.example.newbiechen.ireader.ui.adapter.view;
+package com.test.xiaojian.simple_reader.ui.adapter.view;
 
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.BookListDetailBean;
-import com.example.newbiechen.ireader.ui.base.adapter.ViewHolderImpl;
-import com.example.newbiechen.ireader.utils.Constant;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.BookListDetailBean;
+import com.test.xiaojian.simple_reader.ui.base.adapter.ViewHolderImpl;
+import com.test.xiaojian.simple_reader.utils.Constant;
 
 /**
- * Created by newbiechen on 17-5-2.
+ * Created by xiaojian on 17-5-2.
  */
 
 public class BookListInfoHolder extends ViewHolderImpl<BookListDetailBean.BooksBean.BookBean> {

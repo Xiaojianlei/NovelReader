@@ -1,9 +1,9 @@
-package com.example.newbiechen.ireader.event;
+package com.test.xiaojian.simple_reader.event;
 
-import com.example.newbiechen.ireader.model.bean.CollBookBean;
+import com.test.xiaojian.simple_reader.model.bean.CollBookBean;
 
 /**
- * Created by newbiechen on 17-5-27.
+ * Created by xiaojian on 17-5-27.
  */
 
 public class DeleteResponseEvent {

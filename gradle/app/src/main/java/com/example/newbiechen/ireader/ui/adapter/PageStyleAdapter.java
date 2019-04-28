@@ -1,17 +1,17 @@
-package com.example.newbiechen.ireader.ui.adapter;
+package com.test.xiaojian.simple_reader.ui.adapter;
 
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.example.newbiechen.ireader.ui.adapter.view.PageStyleHolder;
-import com.example.newbiechen.ireader.ui.base.adapter.BaseListAdapter;
-import com.example.newbiechen.ireader.ui.base.adapter.BaseViewHolder;
-import com.example.newbiechen.ireader.ui.base.adapter.IViewHolder;
-import com.example.newbiechen.ireader.widget.page.PageStyle;
+import com.test.xiaojian.simple_reader.ui.adapter.view.PageStyleHolder;
+import com.test.xiaojian.simple_reader.ui.base.adapter.BaseListAdapter;
+import com.test.xiaojian.simple_reader.ui.base.adapter.BaseViewHolder;
+import com.test.xiaojian.simple_reader.ui.base.adapter.IViewHolder;
+import com.test.xiaojian.simple_reader.widget.page.PageStyle;
 
 /**
- * Created by newbiechen on 17-5-19.
+ * Created by xiaojian on 17-5-19.
  */
 
 public class PageStyleAdapter extends BaseListAdapter<Drawable> {

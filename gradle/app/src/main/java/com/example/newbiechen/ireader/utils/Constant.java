@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 import android.support.annotation.StringDef;
 
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by newbiechen on 17-4-16.
+ * Created by xiaojian on 17-4-16.
  */
 
 public class Constant {

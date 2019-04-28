@@ -1,19 +1,19 @@
-package com.example.newbiechen.ireader.presenter;
+package com.test.xiaojian.simple_reader.presenter;
 
-import com.example.newbiechen.ireader.RxBus;
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
-import com.example.newbiechen.ireader.model.bean.BookDetailBean;
-import com.example.newbiechen.ireader.model.bean.CollBookBean;
-import com.example.newbiechen.ireader.model.bean.DownloadTaskBean;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.model.remote.RemoteRepository;
-import com.example.newbiechen.ireader.presenter.contract.BookShelfContract;
-import com.example.newbiechen.ireader.ui.base.RxPresenter;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.utils.LogUtils;
-import com.example.newbiechen.ireader.utils.MD5Utils;
-import com.example.newbiechen.ireader.utils.RxUtils;
-import com.example.newbiechen.ireader.utils.StringUtils;
+import com.test.xiaojian.simple_reader.RxBus;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.model.bean.BookDetailBean;
+import com.test.xiaojian.simple_reader.model.bean.CollBookBean;
+import com.test.xiaojian.simple_reader.model.bean.DownloadTaskBean;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.model.remote.RemoteRepository;
+import com.test.xiaojian.simple_reader.presenter.contract.BookShelfContract;
+import com.test.xiaojian.simple_reader.ui.base.RxPresenter;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.LogUtils;
+import com.test.xiaojian.simple_reader.utils.MD5Utils;
+import com.test.xiaojian.simple_reader.utils.RxUtils;
+import com.test.xiaojian.simple_reader.utils.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -26,7 +26,7 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
 
 /**
- * Created by newbiechen on 17-5-8.
+ * Created by xiaojian on 17-5-8.
  */
 
 public class BookShelfPresenter extends RxPresenter<BookShelfContract.View>

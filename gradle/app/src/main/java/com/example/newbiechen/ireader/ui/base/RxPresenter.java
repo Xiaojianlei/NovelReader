@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.base;
+package com.test.xiaojian.simple_reader.ui.base;
 
 import org.reactivestreams.Subscription;
 
@@ -6,7 +6,7 @@ import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by newbiechen on 17-4-26.
+ * Created by xiaojian on 17-4-26.
  */
 
 public class RxPresenter<T extends BaseContract.BaseView> implements BaseContract.BasePresenter<T> {

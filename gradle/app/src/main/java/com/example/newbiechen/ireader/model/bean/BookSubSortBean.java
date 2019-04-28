@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-5-3.
+ * Created by xiaojian on 17-5-3.
  */
 
 public class BookSubSortBean implements Parcelable{

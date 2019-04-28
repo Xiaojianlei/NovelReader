@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.adapter.view;
+package com.test.xiaojian.simple_reader.ui.adapter.view;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -6,14 +6,14 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.DownloadTaskBean;
-import com.example.newbiechen.ireader.ui.base.adapter.ViewHolderImpl;
-import com.example.newbiechen.ireader.utils.FileUtils;
-import com.example.newbiechen.ireader.utils.StringUtils;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.DownloadTaskBean;
+import com.test.xiaojian.simple_reader.ui.base.adapter.ViewHolderImpl;
+import com.test.xiaojian.simple_reader.utils.FileUtils;
+import com.test.xiaojian.simple_reader.utils.StringUtils;
 
 /**
- * Created by newbiechen on 17-5-12.
+ * Created by xiaojian on 17-5-12.
  */
 
 public class DownloadHolder extends ViewHolderImpl<DownloadTaskBean> {

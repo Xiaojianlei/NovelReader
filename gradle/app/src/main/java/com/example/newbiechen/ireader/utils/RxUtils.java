@@ -1,9 +1,9 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.event.RecommendBookEvent;
-import com.example.newbiechen.ireader.model.bean.CommentBean;
-import com.example.newbiechen.ireader.model.bean.DetailBean;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.event.RecommendBookEvent;
+import com.test.xiaojian.simple_reader.model.bean.CommentBean;
+import com.test.xiaojian.simple_reader.model.bean.DetailBean;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ import io.reactivex.functions.Function3;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by newbiechen on 17-4-29.
+ * Created by xiaojian on 17-4-29.
  */
 
 public class RxUtils {

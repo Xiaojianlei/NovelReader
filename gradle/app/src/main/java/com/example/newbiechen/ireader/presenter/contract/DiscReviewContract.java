@@ -1,15 +1,15 @@
-package com.example.newbiechen.ireader.presenter.contract;
+package com.test.xiaojian.simple_reader.presenter.contract;
 
-import com.example.newbiechen.ireader.model.bean.BookReviewBean;
-import com.example.newbiechen.ireader.model.flag.BookDistillate;
-import com.example.newbiechen.ireader.model.flag.BookSort;
-import com.example.newbiechen.ireader.model.flag.BookType;
-import com.example.newbiechen.ireader.ui.base.BaseContract;
+import com.test.xiaojian.simple_reader.model.bean.BookReviewBean;
+import com.test.xiaojian.simple_reader.model.flag.BookDistillate;
+import com.test.xiaojian.simple_reader.model.flag.BookSort;
+import com.test.xiaojian.simple_reader.model.flag.BookType;
+import com.test.xiaojian.simple_reader.ui.base.BaseContract;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-4-21.
+ * Created by xiaojian on 17-4-21.
  */
 
 public interface DiscReviewContract {

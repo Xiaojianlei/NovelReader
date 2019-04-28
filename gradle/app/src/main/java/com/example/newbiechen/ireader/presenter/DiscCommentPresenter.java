@@ -1,15 +1,15 @@
-package com.example.newbiechen.ireader.presenter;
+package com.test.xiaojian.simple_reader.presenter;
 
-import static com.example.newbiechen.ireader.utils.LogUtils.*;
+import static com.test.xiaojian.simple_reader.utils.LogUtils.*;
 
-import com.example.newbiechen.ireader.model.bean.BookCommentBean;
-import com.example.newbiechen.ireader.model.flag.BookDistillate;
-import com.example.newbiechen.ireader.model.flag.BookSort;
-import com.example.newbiechen.ireader.model.flag.CommunityType;
-import com.example.newbiechen.ireader.model.local.LocalRepository;
-import com.example.newbiechen.ireader.model.remote.RemoteRepository;
-import com.example.newbiechen.ireader.presenter.contract.DiscCommentContact;
-import com.example.newbiechen.ireader.ui.base.RxPresenter;
+import com.test.xiaojian.simple_reader.model.bean.BookCommentBean;
+import com.test.xiaojian.simple_reader.model.flag.BookDistillate;
+import com.test.xiaojian.simple_reader.model.flag.BookSort;
+import com.test.xiaojian.simple_reader.model.flag.CommunityType;
+import com.test.xiaojian.simple_reader.model.local.LocalRepository;
+import com.test.xiaojian.simple_reader.model.remote.RemoteRepository;
+import com.test.xiaojian.simple_reader.presenter.contract.DiscCommentContact;
+import com.test.xiaojian.simple_reader.ui.base.RxPresenter;
 
 import java.util.List;
 
@@ -19,7 +19,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by newbiechen on 17-4-20.
+ * Created by xiaojian on 17-4-20.
  */
 
 public class DiscCommentPresenter extends RxPresenter<DiscCommentContact.View> implements DiscCommentContact.Presenter{

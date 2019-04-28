@@ -1,6 +1,6 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
-import static com.example.newbiechen.ireader.ui.fragment.BaseFileFragment.*;
+import static com.test.xiaojian.simple_reader.ui.fragment.BaseFileFragment.*;
 import android.content.DialogInterface;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
@@ -9,17 +9,17 @@ import android.support.v7.widget.Toolbar;
 import android.widget.Button;
 import android.widget.CheckBox;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.CollBookBean;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.ui.base.BaseTabActivity;
-import com.example.newbiechen.ireader.ui.fragment.BaseFileFragment;
-import com.example.newbiechen.ireader.ui.fragment.FileCategoryFragment;
-import com.example.newbiechen.ireader.ui.fragment.LocalBookFragment;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.utils.MD5Utils;
-import com.example.newbiechen.ireader.utils.StringUtils;
-import com.example.newbiechen.ireader.utils.ToastUtils;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.CollBookBean;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.ui.base.BaseTabActivity;
+import com.test.xiaojian.simple_reader.ui.fragment.BaseFileFragment;
+import com.test.xiaojian.simple_reader.ui.fragment.FileCategoryFragment;
+import com.test.xiaojian.simple_reader.ui.fragment.LocalBookFragment;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.MD5Utils;
+import com.test.xiaojian.simple_reader.utils.StringUtils;
+import com.test.xiaojian.simple_reader.utils.ToastUtils;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -29,7 +29,7 @@ import java.util.List;
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-5-27.
+ * Created by xiaojian on 17-5-27.
  */
 
 public class FileSystemActivity extends BaseTabActivity {

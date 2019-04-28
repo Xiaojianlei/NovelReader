@@ -1,14 +1,14 @@
-package com.example.newbiechen.ireader.ui.adapter;
+package com.test.xiaojian.simple_reader.ui.adapter;
 
 import android.content.Context;
 
-import com.example.newbiechen.ireader.model.bean.BookCommentBean;
-import com.example.newbiechen.ireader.ui.adapter.view.DiscCommentHolder;
-import com.example.newbiechen.ireader.ui.base.adapter.IViewHolder;
-import com.example.newbiechen.ireader.widget.adapter.WholeAdapter;
+import com.test.xiaojian.simple_reader.model.bean.BookCommentBean;
+import com.test.xiaojian.simple_reader.ui.adapter.view.DiscCommentHolder;
+import com.test.xiaojian.simple_reader.ui.base.adapter.IViewHolder;
+import com.test.xiaojian.simple_reader.widget.adapter.WholeAdapter;
 
 /**
- * Created by newbiechen on 17-4-20.
+ * Created by xiaojian on 17-4-20.
  */
 
 public class DiscCommentAdapter extends WholeAdapter<BookCommentBean> {

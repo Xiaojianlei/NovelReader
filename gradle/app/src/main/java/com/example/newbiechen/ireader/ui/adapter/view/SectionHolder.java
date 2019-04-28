@@ -1,14 +1,14 @@
-package com.example.newbiechen.ireader.ui.adapter.view;
+package com.test.xiaojian.simple_reader.ui.adapter.view;
 
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.SectionBean;
-import com.example.newbiechen.ireader.ui.base.adapter.ViewHolderImpl;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.SectionBean;
+import com.test.xiaojian.simple_reader.ui.base.adapter.ViewHolderImpl;
 
 /**
- * Created by newbiechen on 17-4-16.
+ * Created by xiaojian on 17-4-16.
  */
 
 public class SectionHolder extends ViewHolderImpl<SectionBean>{

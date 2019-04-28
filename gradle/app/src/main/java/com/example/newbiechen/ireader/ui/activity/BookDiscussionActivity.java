@@ -1,6 +1,6 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
-import static com.example.newbiechen.ireader.model.flag.BookSelection.*;
+import static com.test.xiaojian.simple_reader.model.flag.BookSelection.*;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,25 +8,25 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.Toolbar;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.RxBus;
-import com.example.newbiechen.ireader.event.SelectorEvent;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.RxBus;
+import com.test.xiaojian.simple_reader.event.SelectorEvent;
 
-import com.example.newbiechen.ireader.model.flag.BookDistillate;
-import com.example.newbiechen.ireader.model.flag.BookSort;
-import com.example.newbiechen.ireader.model.flag.BookType;
-import com.example.newbiechen.ireader.model.flag.CommunityType;
-import com.example.newbiechen.ireader.ui.base.BaseActivity;
-import com.example.newbiechen.ireader.ui.fragment.DiscCommentFragment;
-import com.example.newbiechen.ireader.ui.fragment.DiscHelpsFragment;
-import com.example.newbiechen.ireader.ui.fragment.DiscReviewFragment;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.widget.SelectorView;
+import com.test.xiaojian.simple_reader.model.flag.BookDistillate;
+import com.test.xiaojian.simple_reader.model.flag.BookSort;
+import com.test.xiaojian.simple_reader.model.flag.BookType;
+import com.test.xiaojian.simple_reader.model.flag.CommunityType;
+import com.test.xiaojian.simple_reader.ui.base.BaseActivity;
+import com.test.xiaojian.simple_reader.ui.fragment.DiscCommentFragment;
+import com.test.xiaojian.simple_reader.ui.fragment.DiscHelpsFragment;
+import com.test.xiaojian.simple_reader.ui.fragment.DiscReviewFragment;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.widget.SelectorView;
 
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-4-17.
+ * Created by xiaojian on 17-4-17.
  * 书籍讨论
  */
 

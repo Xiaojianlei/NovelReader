@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.Toolbar;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.ui.base.BaseActivity;
-import com.example.newbiechen.ireader.ui.base.BaseTabActivity;
-import com.example.newbiechen.ireader.ui.fragment.BillBookFragment;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.ui.base.BaseActivity;
+import com.test.xiaojian.simple_reader.ui.base.BaseTabActivity;
+import com.test.xiaojian.simple_reader.ui.fragment.BillBookFragment;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-5-3.
+ * Created by xiaojian on 17-5-3.
  * BillboardBookActivity:排行榜内的书籍详情
  */
 

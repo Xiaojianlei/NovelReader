@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.base;
+package com.test.xiaojian.simple_reader.ui.base;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 
-import com.example.newbiechen.ireader.R;
+import com.test.xiaojian.simple_reader.R;
 
 import java.util.List;
 
@@ -14,7 +14,7 @@ import butterknife.BindView;
 import butterknife.Unbinder;
 
 /**
- * Created by newbiechen on 17-4-24.
+ * Created by xiaojian on 17-4-24.
  */
 
 public abstract class BaseTabActivity extends BaseActivity {

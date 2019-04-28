@@ -1,23 +1,23 @@
-package com.example.newbiechen.ireader.ui.fragment;
+package com.test.xiaojian.simple_reader.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.RxBus;
-import com.example.newbiechen.ireader.event.BookSubSortEvent;
-import com.example.newbiechen.ireader.model.bean.SortBookBean;
-import com.example.newbiechen.ireader.model.flag.BookSortListType;
-import com.example.newbiechen.ireader.presenter.BookSortListPresenter;
-import com.example.newbiechen.ireader.presenter.contract.BookSortListContract;
-import com.example.newbiechen.ireader.ui.activity.BookDetailActivity;
-import com.example.newbiechen.ireader.ui.adapter.BookSortListAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPFragment;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
-import com.example.newbiechen.ireader.widget.adapter.WholeAdapter;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.RxBus;
+import com.test.xiaojian.simple_reader.event.BookSubSortEvent;
+import com.test.xiaojian.simple_reader.model.bean.SortBookBean;
+import com.test.xiaojian.simple_reader.model.flag.BookSortListType;
+import com.test.xiaojian.simple_reader.presenter.BookSortListPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.BookSortListContract;
+import com.test.xiaojian.simple_reader.ui.activity.BookDetailActivity;
+import com.test.xiaojian.simple_reader.ui.adapter.BookSortListAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPFragment;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.widget.adapter.WholeAdapter;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
 
 import java.util.List;
 
@@ -26,7 +26,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by newbiechen on 17-5-3.
+ * Created by xiaojian on 17-5-3.
  */
 
 public class BookSortListFragment extends BaseMVPFragment<BookSortListContract.Presenter>

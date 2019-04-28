@@ -1,11 +1,11 @@
-package com.example.newbiechen.ireader.presenter;
+package com.test.xiaojian.simple_reader.presenter;
 
-import com.example.newbiechen.ireader.model.bean.packages.BookSortPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BookSubSortPackage;
-import com.example.newbiechen.ireader.model.remote.RemoteRepository;
-import com.example.newbiechen.ireader.presenter.contract.BookSortContract;
-import com.example.newbiechen.ireader.ui.base.RxPresenter;
-import com.example.newbiechen.ireader.utils.LogUtils;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookSortPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookSubSortPackage;
+import com.test.xiaojian.simple_reader.model.remote.RemoteRepository;
+import com.test.xiaojian.simple_reader.presenter.contract.BookSortContract;
+import com.test.xiaojian.simple_reader.ui.base.RxPresenter;
+import com.test.xiaojian.simple_reader.utils.LogUtils;
 
 import io.reactivex.Single;
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -14,7 +14,7 @@ import io.reactivex.functions.BiFunction;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by newbiechen on 17-4-23.
+ * Created by xiaojian on 17-4-23.
  */
 
 public class BookSortPresenter extends RxPresenter<BookSortContract.View> implements BookSortContract.Presenter {

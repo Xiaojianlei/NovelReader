@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -11,7 +11,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 /**
- * Created by newbiechen on 17-5-19.
+ * Created by xiaojian on 17-5-19.
  * 调节亮度的工具类
  */
 

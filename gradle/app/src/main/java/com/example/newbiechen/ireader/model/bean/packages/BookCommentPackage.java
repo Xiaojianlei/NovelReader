@@ -1,12 +1,12 @@
-package com.example.newbiechen.ireader.model.bean.packages;
+package com.test.xiaojian.simple_reader.model.bean.packages;
 
-import com.example.newbiechen.ireader.model.bean.BaseBean;
-import com.example.newbiechen.ireader.model.bean.BookCommentBean;
+import com.test.xiaojian.simple_reader.model.bean.BaseBean;
+import com.test.xiaojian.simple_reader.model.bean.BookCommentBean;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-4-20.
+ * Created by xiaojian on 17-4-20.
  */
 public class BookCommentPackage extends BaseBean {
 

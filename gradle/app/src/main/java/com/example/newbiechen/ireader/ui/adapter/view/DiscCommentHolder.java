@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.adapter.view;
+package com.test.xiaojian.simple_reader.ui.adapter.view;
 
 import android.graphics.drawable.Drawable;
 import android.view.View;
@@ -6,16 +6,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.newbiechen.ireader.App;
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.BookCommentBean;
-import com.example.newbiechen.ireader.ui.base.adapter.ViewHolderImpl;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.utils.StringUtils;
-import com.example.newbiechen.ireader.widget.transform.CircleTransform;
+import com.test.xiaojian.simple_reader.App;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.BookCommentBean;
+import com.test.xiaojian.simple_reader.ui.base.adapter.ViewHolderImpl;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.StringUtils;
+import com.test.xiaojian.simple_reader.widget.transform.CircleTransform;
 
 /**
- * Created by newbiechen on 17-4-20.
+ * Created by xiaojian on 17-4-20.
  */
 
 public class DiscCommentHolder extends ViewHolderImpl<BookCommentBean>{

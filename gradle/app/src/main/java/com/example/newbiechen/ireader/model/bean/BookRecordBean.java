@@ -1,11 +1,11 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Id;
 import org.greenrobot.greendao.annotation.Generated;
 
 /**
- * Created by newbiechen on 17-5-20.
+ * Created by xiaojian on 17-5-20.
  */
 @Entity
 public class BookRecordBean{

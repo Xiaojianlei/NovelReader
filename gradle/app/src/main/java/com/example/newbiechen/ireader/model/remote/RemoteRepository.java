@@ -1,27 +1,27 @@
-package com.example.newbiechen.ireader.model.remote;
+package com.test.xiaojian.simple_reader.model.remote;
 
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
-import com.example.newbiechen.ireader.model.bean.BookDetailBean;
-import com.example.newbiechen.ireader.model.bean.ChapterInfoBean;
-import com.example.newbiechen.ireader.model.bean.CollBookBean;
-import com.example.newbiechen.ireader.model.bean.packages.BillboardPackage;
-import com.example.newbiechen.ireader.model.bean.BillBookBean;
-import com.example.newbiechen.ireader.model.bean.BookHelpsBean;
-import com.example.newbiechen.ireader.model.bean.BookListBean;
-import com.example.newbiechen.ireader.model.bean.BookListDetailBean;
-import com.example.newbiechen.ireader.model.bean.BookReviewBean;
-import com.example.newbiechen.ireader.model.bean.BookCommentBean;
-import com.example.newbiechen.ireader.model.bean.packages.BookSortPackage;
-import com.example.newbiechen.ireader.model.bean.packages.BookSubSortPackage;
-import com.example.newbiechen.ireader.model.bean.BookTagBean;
-import com.example.newbiechen.ireader.model.bean.CommentBean;
-import com.example.newbiechen.ireader.model.bean.CommentDetailBean;
-import com.example.newbiechen.ireader.model.bean.HelpsDetailBean;
-import com.example.newbiechen.ireader.model.bean.HotCommentBean;
-import com.example.newbiechen.ireader.model.bean.ReviewDetailBean;
-import com.example.newbiechen.ireader.model.bean.SortBookBean;
-import com.example.newbiechen.ireader.model.bean.packages.ChapterInfoPackage;
-import com.example.newbiechen.ireader.model.bean.packages.SearchBookPackage;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.model.bean.BookDetailBean;
+import com.test.xiaojian.simple_reader.model.bean.ChapterInfoBean;
+import com.test.xiaojian.simple_reader.model.bean.CollBookBean;
+import com.test.xiaojian.simple_reader.model.bean.packages.BillboardPackage;
+import com.test.xiaojian.simple_reader.model.bean.BillBookBean;
+import com.test.xiaojian.simple_reader.model.bean.BookHelpsBean;
+import com.test.xiaojian.simple_reader.model.bean.BookListBean;
+import com.test.xiaojian.simple_reader.model.bean.BookListDetailBean;
+import com.test.xiaojian.simple_reader.model.bean.BookReviewBean;
+import com.test.xiaojian.simple_reader.model.bean.BookCommentBean;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookSortPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookSubSortPackage;
+import com.test.xiaojian.simple_reader.model.bean.BookTagBean;
+import com.test.xiaojian.simple_reader.model.bean.CommentBean;
+import com.test.xiaojian.simple_reader.model.bean.CommentDetailBean;
+import com.test.xiaojian.simple_reader.model.bean.HelpsDetailBean;
+import com.test.xiaojian.simple_reader.model.bean.HotCommentBean;
+import com.test.xiaojian.simple_reader.model.bean.ReviewDetailBean;
+import com.test.xiaojian.simple_reader.model.bean.SortBookBean;
+import com.test.xiaojian.simple_reader.model.bean.packages.ChapterInfoPackage;
+import com.test.xiaojian.simple_reader.model.bean.packages.SearchBookPackage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +30,7 @@ import io.reactivex.Single;
 import retrofit2.Retrofit;
 
 /**
- * Created by newbiechen on 17-4-20.
+ * Created by xiaojian on 17-4-20.
  */
 
 public class RemoteRepository {

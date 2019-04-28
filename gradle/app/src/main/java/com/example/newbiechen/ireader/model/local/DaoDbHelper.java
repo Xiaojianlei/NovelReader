@@ -1,13 +1,13 @@
-package com.example.newbiechen.ireader.model.local;
+package com.test.xiaojian.simple_reader.model.local;
 
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.newbiechen.ireader.App;
-import com.example.newbiechen.ireader.model.gen.DaoMaster;
-import com.example.newbiechen.ireader.model.gen.DaoSession;
+import com.test.xiaojian.simple_reader.App;
+import com.test.xiaojian.simple_reader.model.gen.DaoMaster;
+import com.test.xiaojian.simple_reader.model.gen.DaoSession;
 
 /**
- * Created by newbiechen on 17-4-26.
+ * Created by xiaojian on 17-4-26.
  */
 
 public class DaoDbHelper {

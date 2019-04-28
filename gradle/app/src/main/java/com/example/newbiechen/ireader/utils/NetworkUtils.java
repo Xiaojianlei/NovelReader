@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 import android.app.Service;
 import android.app.usage.NetworkStatsManager;
@@ -7,10 +7,10 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiManager;
 
-import com.example.newbiechen.ireader.App;
+import com.test.xiaojian.simple_reader.App;
 
 /**
- * Created by newbiechen on 17-5-11.
+ * Created by xiaojian on 17-5-11.
  */
 
 public class NetworkUtils {

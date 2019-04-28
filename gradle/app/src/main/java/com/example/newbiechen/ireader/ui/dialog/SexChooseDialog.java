@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.dialog;
+package com.test.xiaojian.simple_reader.ui.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -8,11 +8,11 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.RxBus;
-import com.example.newbiechen.ireader.event.RecommendBookEvent;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.utils.SharedPreUtils;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.RxBus;
+import com.test.xiaojian.simple_reader.event.RecommendBookEvent;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.SharedPreUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -20,7 +20,7 @@ import butterknife.OnClick;
 import butterknife.Unbinder;
 
 /**
- * Created by newbiechen on 17-4-15.
+ * Created by xiaojian on 17-4-15.
  */
 
 public class SexChooseDialog extends Dialog {

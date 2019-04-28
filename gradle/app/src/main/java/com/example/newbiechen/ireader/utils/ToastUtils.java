@@ -1,11 +1,11 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 import android.widget.Toast;
 
-import com.example.newbiechen.ireader.App;
+import com.test.xiaojian.simple_reader.App;
 
 /**
- * Created by newbiechen on 17-5-11.
+ * Created by xiaojian on 17-5-11.
  */
 
 public class ToastUtils {

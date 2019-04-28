@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.os.Bundle;
 import android.support.v7.widget.SwitchCompat;
@@ -7,9 +7,9 @@ import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.view.View;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.local.ReadSettingManager;
-import com.example.newbiechen.ireader.ui.base.BaseActivity;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.local.ReadSettingManager;
+import com.test.xiaojian.simple_reader.ui.base.BaseActivity;
 
 import butterknife.BindView;
 
@@ -17,7 +17,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 
 /**
- * Created by newbiechen on 17-6-6.
+ * Created by xiaojian on 17-6-6.
  * 阅读界面的更多设置
  */
 

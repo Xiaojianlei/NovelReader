@@ -1,14 +1,14 @@
-package com.example.newbiechen.ireader.presenter.contract;
+package com.test.xiaojian.simple_reader.presenter.contract;
 
-import com.example.newbiechen.ireader.model.bean.CommentBean;
-import com.example.newbiechen.ireader.model.bean.CommentDetailBean;
-import com.example.newbiechen.ireader.model.flag.CommunityType;
-import com.example.newbiechen.ireader.ui.base.BaseContract;
+import com.test.xiaojian.simple_reader.model.bean.CommentBean;
+import com.test.xiaojian.simple_reader.model.bean.CommentDetailBean;
+import com.test.xiaojian.simple_reader.model.flag.CommunityType;
+import com.test.xiaojian.simple_reader.ui.base.BaseContract;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-4-29.
+ * Created by xiaojian on 17-4-29.
  */
 
 public interface CommentDetailContract {

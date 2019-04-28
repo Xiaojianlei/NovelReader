@@ -1,14 +1,14 @@
-package com.example.newbiechen.ireader.ui.adapter;
+package com.test.xiaojian.simple_reader.ui.adapter;
 
 import android.content.Context;
 
-import com.example.newbiechen.ireader.model.bean.BookListDetailBean;
-import com.example.newbiechen.ireader.ui.adapter.view.BookListInfoHolder;
-import com.example.newbiechen.ireader.ui.base.adapter.IViewHolder;
-import com.example.newbiechen.ireader.widget.adapter.WholeAdapter;
+import com.test.xiaojian.simple_reader.model.bean.BookListDetailBean;
+import com.test.xiaojian.simple_reader.ui.adapter.view.BookListInfoHolder;
+import com.test.xiaojian.simple_reader.ui.base.adapter.IViewHolder;
+import com.test.xiaojian.simple_reader.widget.adapter.WholeAdapter;
 
 /**
- * Created by newbiechen on 17-5-2.
+ * Created by xiaojian on 17-5-2.
  */
 
 public class BookListDetailAdapter extends WholeAdapter<BookListDetailBean.BooksBean.BookBean> {

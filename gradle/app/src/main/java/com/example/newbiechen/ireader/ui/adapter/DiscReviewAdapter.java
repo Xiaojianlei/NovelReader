@@ -1,14 +1,14 @@
-package com.example.newbiechen.ireader.ui.adapter;
+package com.test.xiaojian.simple_reader.ui.adapter;
 
 import android.content.Context;
 
-import com.example.newbiechen.ireader.model.bean.BookReviewBean;
-import com.example.newbiechen.ireader.ui.adapter.view.DiscReviewHolder;
-import com.example.newbiechen.ireader.ui.base.adapter.IViewHolder;
-import com.example.newbiechen.ireader.widget.adapter.WholeAdapter;
+import com.test.xiaojian.simple_reader.model.bean.BookReviewBean;
+import com.test.xiaojian.simple_reader.ui.adapter.view.DiscReviewHolder;
+import com.test.xiaojian.simple_reader.ui.base.adapter.IViewHolder;
+import com.test.xiaojian.simple_reader.widget.adapter.WholeAdapter;
 
 /**
- * Created by newbiechen on 17-4-21.
+ * Created by xiaojian on 17-4-21.
  */
 
 public class DiscReviewAdapter extends WholeAdapter<BookReviewBean> {

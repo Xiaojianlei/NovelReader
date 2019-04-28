@@ -1,14 +1,14 @@
-package com.example.newbiechen.ireader;
+package com.test.xiaojian.simple_reader;
 
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 
-import com.example.newbiechen.ireader.service.DownloadService;
+import com.test.xiaojian.simple_reader.service.DownloadService;
 import com.squareup.leakcanary.LeakCanary;
 
 /**
- * Created by newbiechen on 17-4-15.
+ * Created by xiaojian on 17-4-15.
  */
 
 public class App extends Application {

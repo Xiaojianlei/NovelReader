@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.adapter;
+package com.test.xiaojian.simple_reader.ui.adapter;
 
 import android.view.View;
 import android.view.ViewGroup;
@@ -6,16 +6,16 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
-import com.example.newbiechen.ireader.ui.adapter.view.CategoryHolder;
-import com.example.newbiechen.ireader.ui.base.EasyAdapter;
-import com.example.newbiechen.ireader.ui.base.adapter.IViewHolder;
-import com.example.newbiechen.ireader.widget.page.TxtChapter;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.ui.adapter.view.CategoryHolder;
+import com.test.xiaojian.simple_reader.ui.base.EasyAdapter;
+import com.test.xiaojian.simple_reader.ui.base.adapter.IViewHolder;
+import com.test.xiaojian.simple_reader.widget.page.TxtChapter;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-6-5.
+ * Created by xiaojian on 17-6-5.
  */
 
 public class CategoryAdapter extends EasyAdapter<TxtChapter> {

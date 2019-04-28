@@ -1,12 +1,12 @@
-package com.example.newbiechen.ireader.presenter;
+package com.test.xiaojian.simple_reader.presenter;
 
-import com.example.newbiechen.ireader.model.bean.CommentBean;
-import com.example.newbiechen.ireader.model.bean.HelpsDetailBean;
-import com.example.newbiechen.ireader.model.remote.RemoteRepository;
-import com.example.newbiechen.ireader.presenter.contract.HelpsDetailContract;
-import com.example.newbiechen.ireader.ui.base.RxPresenter;
-import com.example.newbiechen.ireader.utils.LogUtils;
-import com.example.newbiechen.ireader.utils.RxUtils;
+import com.test.xiaojian.simple_reader.model.bean.CommentBean;
+import com.test.xiaojian.simple_reader.model.bean.HelpsDetailBean;
+import com.test.xiaojian.simple_reader.model.remote.RemoteRepository;
+import com.test.xiaojian.simple_reader.presenter.contract.HelpsDetailContract;
+import com.test.xiaojian.simple_reader.ui.base.RxPresenter;
+import com.test.xiaojian.simple_reader.utils.LogUtils;
+import com.test.xiaojian.simple_reader.utils.RxUtils;
 
 import java.util.List;
 
@@ -16,7 +16,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by newbiechen on 17-4-30.
+ * Created by xiaojian on 17-4-30.
  */
 
 public class HelpsDetailPresenter extends RxPresenter<HelpsDetailContract.View>

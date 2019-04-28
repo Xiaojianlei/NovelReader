@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.newbiechen.ireader">
+          package="com.test.xiaojian.simple_reader">
     
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:name=".App"
+        android:name="com.test.xiaojian.simple_reader.App"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.activity.SplashActivity"
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.SplashActivity"
             android:theme="@style/SplashTheme">
         </activity>
-        <activity android:name=".ui.activity.MainActivity">
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activity.BookDiscussionActivity"/>
-        <activity android:name=".ui.activity.DiscDetailActivity"/>
-        <activity android:name=".ui.activity.BillboardActivity">
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.BookDiscussionActivity"/>
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.DiscDetailActivity"/>
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.BillboardActivity">
         </activity>
-        <activity android:name=".ui.activity.BookSortActivity">
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.BookSortActivity">
         </activity>
-        <activity android:name=".ui.activity.BookSortListActivity">
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.BookSortListActivity">
         </activity>
-        <activity android:name=".ui.activity.SearchActivity">
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.SearchActivity">
         </activity>
-        <activity android:name=".ui.activity.BookListActivity">
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.BookListActivity">
         </activity>
-        <activity android:name=".ui.activity.BookListDetailActivity"/>
-        <activity android:name=".ui.activity.BillBookActivity"/>
-        <activity android:name=".ui.activity.OtherBillBookActivity"/>
-        <activity android:name=".ui.activity.BookDetailActivity"/>
-        <activity android:name=".ui.activity.DownloadActivity"/>
-        <activity android:name=".ui.activity.ReadActivity">
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.BookListDetailActivity"/>
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.BillBookActivity"/>
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.OtherBillBookActivity"/>
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.BookDetailActivity"/>
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.DownloadActivity"/>
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.ReadActivity">
         </activity>
-        <activity android:name=".ui.activity.FileSystemActivity"/>
-        <activity android:name=".ui.activity.MoreSettingActivity" />
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.FileSystemActivity"/>
+        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.MoreSettingActivity" />
     
-        <service android:name=".service.DownloadService" />
+        <service android:name="com.test.xiaojian.simple_reader.service.DownloadService" />
     </application>
     
     

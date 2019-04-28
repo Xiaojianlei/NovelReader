@@ -1,26 +1,26 @@
-package com.example.newbiechen.ireader.ui.fragment;
+package com.test.xiaojian.simple_reader.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.BillBookBean;
-import com.example.newbiechen.ireader.presenter.BillBookPresenter;
-import com.example.newbiechen.ireader.presenter.contract.BillBookContract;
-import com.example.newbiechen.ireader.ui.activity.BookDetailActivity;
-import com.example.newbiechen.ireader.ui.adapter.BillBookAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPFragment;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.BillBookBean;
+import com.test.xiaojian.simple_reader.presenter.BillBookPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.BillBookContract;
+import com.test.xiaojian.simple_reader.ui.activity.BookDetailActivity;
+import com.test.xiaojian.simple_reader.ui.adapter.BillBookAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPFragment;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
 
 import java.util.List;
 
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-5-3.
+ * Created by xiaojian on 17-5-3.
  */
 
 public class BillBookFragment extends BaseMVPFragment<BillBookContract.Presenter>

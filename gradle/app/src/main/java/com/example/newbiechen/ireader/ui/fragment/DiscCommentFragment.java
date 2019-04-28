@@ -1,25 +1,25 @@
-package com.example.newbiechen.ireader.ui.fragment;
+package com.test.xiaojian.simple_reader.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.RxBus;
-import com.example.newbiechen.ireader.event.SelectorEvent;
-import com.example.newbiechen.ireader.model.bean.BookCommentBean;
-import com.example.newbiechen.ireader.model.flag.BookDistillate;
-import com.example.newbiechen.ireader.model.flag.BookSort;
-import com.example.newbiechen.ireader.model.flag.CommunityType;
-import com.example.newbiechen.ireader.presenter.DiscCommentPresenter;
-import com.example.newbiechen.ireader.presenter.contract.DiscCommentContact;
-import com.example.newbiechen.ireader.ui.activity.DiscDetailActivity;
-import com.example.newbiechen.ireader.ui.adapter.DiscCommentAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPFragment;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.widget.adapter.WholeAdapter;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
-import com.example.newbiechen.ireader.widget.refresh.ScrollRefreshRecyclerView;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.RxBus;
+import com.test.xiaojian.simple_reader.event.SelectorEvent;
+import com.test.xiaojian.simple_reader.model.bean.BookCommentBean;
+import com.test.xiaojian.simple_reader.model.flag.BookDistillate;
+import com.test.xiaojian.simple_reader.model.flag.BookSort;
+import com.test.xiaojian.simple_reader.model.flag.CommunityType;
+import com.test.xiaojian.simple_reader.presenter.DiscCommentPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.DiscCommentContact;
+import com.test.xiaojian.simple_reader.ui.activity.DiscDetailActivity;
+import com.test.xiaojian.simple_reader.ui.adapter.DiscCommentAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPFragment;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.widget.adapter.WholeAdapter;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.widget.refresh.ScrollRefreshRecyclerView;
 
 import java.util.List;
 
@@ -28,7 +28,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 
 /**
  * DiscussionCommentFragment
- * Created by newbiechen on 17-4-17.
+ * Created by xiaojian on 17-4-17.
  * 讨论组中的评论区，包括Comment、Girl、Origin
  * 1. 初始化RecyclerView
  * 2. 初始化视图和逻辑的交互

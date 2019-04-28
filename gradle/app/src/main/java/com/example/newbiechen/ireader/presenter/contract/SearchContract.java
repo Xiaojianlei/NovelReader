@@ -1,12 +1,12 @@
-package com.example.newbiechen.ireader.presenter.contract;
+package com.test.xiaojian.simple_reader.presenter.contract;
 
-import com.example.newbiechen.ireader.model.bean.packages.SearchBookPackage;
-import com.example.newbiechen.ireader.ui.base.BaseContract;
+import com.test.xiaojian.simple_reader.model.bean.packages.SearchBookPackage;
+import com.test.xiaojian.simple_reader.ui.base.BaseContract;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-6-2.
+ * Created by xiaojian on 17-6-2.
  */
 
 public interface SearchContract extends BaseContract {

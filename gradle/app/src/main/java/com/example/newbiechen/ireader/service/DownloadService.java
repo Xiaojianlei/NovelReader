@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.service;
+package com.test.xiaojian.simple_reader.service;
 
 import android.content.Intent;
 import android.os.Binder;
@@ -7,20 +7,20 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.RxBus;
-import com.example.newbiechen.ireader.event.DeleteResponseEvent;
-import com.example.newbiechen.ireader.event.DeleteTaskEvent;
-import com.example.newbiechen.ireader.event.DownloadMessage;
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
-import com.example.newbiechen.ireader.model.bean.DownloadTaskBean;
-import com.example.newbiechen.ireader.utils.BookManager;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.model.local.LocalRepository;
-import com.example.newbiechen.ireader.model.remote.RemoteRepository;
-import com.example.newbiechen.ireader.ui.base.BaseService;
-import com.example.newbiechen.ireader.utils.LogUtils;
-import com.example.newbiechen.ireader.utils.NetworkUtils;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.RxBus;
+import com.test.xiaojian.simple_reader.event.DeleteResponseEvent;
+import com.test.xiaojian.simple_reader.event.DeleteTaskEvent;
+import com.test.xiaojian.simple_reader.event.DownloadMessage;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.model.bean.DownloadTaskBean;
+import com.test.xiaojian.simple_reader.utils.BookManager;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.model.local.LocalRepository;
+import com.test.xiaojian.simple_reader.model.remote.RemoteRepository;
+import com.test.xiaojian.simple_reader.ui.base.BaseService;
+import com.test.xiaojian.simple_reader.utils.LogUtils;
+import com.test.xiaojian.simple_reader.utils.NetworkUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -33,7 +33,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by newbiechen on 17-5-10.
+ * Created by xiaojian on 17-5-10.
  */
 
 public class DownloadService extends BaseService {

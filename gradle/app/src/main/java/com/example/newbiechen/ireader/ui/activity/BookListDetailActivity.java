@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,18 +14,18 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.newbiechen.ireader.App;
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.BookListDetailBean;
-import com.example.newbiechen.ireader.presenter.BookListDetailPresenter;
-import com.example.newbiechen.ireader.presenter.contract.BookListDetailContract;
-import com.example.newbiechen.ireader.ui.adapter.BookListDetailAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPActivity;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
-import com.example.newbiechen.ireader.widget.adapter.WholeAdapter;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
-import com.example.newbiechen.ireader.widget.transform.CircleTransform;
+import com.test.xiaojian.simple_reader.App;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.BookListDetailBean;
+import com.test.xiaojian.simple_reader.presenter.BookListDetailPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.BookListDetailContract;
+import com.test.xiaojian.simple_reader.ui.adapter.BookListDetailAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPActivity;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.widget.adapter.WholeAdapter;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.widget.transform.CircleTransform;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +35,7 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 /**
- * Created by newbiechen on 17-5-1.
+ * Created by xiaojian on 17-5-1.
  */
 
 public class BookListDetailActivity extends BaseMVPActivity<BookListDetailContract.Presenter> implements BookListDetailContract.View {

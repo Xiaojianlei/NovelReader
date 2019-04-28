@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader;
+package com.test.xiaojian.simple_reader;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.newbiechen.ireader", appContext.getPackageName());
+        assertEquals("com.test.xiaojian.simple_reader", appContext.getPackageName());
     }
 }

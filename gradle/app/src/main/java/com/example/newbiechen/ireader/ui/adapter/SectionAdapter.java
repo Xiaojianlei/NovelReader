@@ -1,12 +1,12 @@
-package com.example.newbiechen.ireader.ui.adapter;
+package com.test.xiaojian.simple_reader.ui.adapter;
 
-import com.example.newbiechen.ireader.model.bean.SectionBean;
-import com.example.newbiechen.ireader.ui.adapter.view.SectionHolder;
-import com.example.newbiechen.ireader.ui.base.adapter.BaseListAdapter;
-import com.example.newbiechen.ireader.ui.base.adapter.IViewHolder;
+import com.test.xiaojian.simple_reader.model.bean.SectionBean;
+import com.test.xiaojian.simple_reader.ui.adapter.view.SectionHolder;
+import com.test.xiaojian.simple_reader.ui.base.adapter.BaseListAdapter;
+import com.test.xiaojian.simple_reader.ui.base.adapter.IViewHolder;
 
 /**
- * Created by newbiechen on 17-4-16.
+ * Created by xiaojian on 17-4-16.
  */
 
 public class SectionAdapter extends BaseListAdapter<SectionBean> {

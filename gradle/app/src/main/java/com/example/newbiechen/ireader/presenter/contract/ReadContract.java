@@ -1,13 +1,13 @@
-package com.example.newbiechen.ireader.presenter.contract;
+package com.test.xiaojian.simple_reader.presenter.contract;
 
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
-import com.example.newbiechen.ireader.ui.base.BaseContract;
-import com.example.newbiechen.ireader.widget.page.TxtChapter;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.ui.base.BaseContract;
+import com.test.xiaojian.simple_reader.widget.page.TxtChapter;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-5-16.
+ * Created by xiaojian on 17-5-16.
  */
 
 public interface ReadContract extends BaseContract{

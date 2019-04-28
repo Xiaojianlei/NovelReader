@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.base;
+package com.test.xiaojian.simple_reader.ui.base;
 
 import android.app.Service;
 import android.content.Intent;
@@ -9,7 +9,7 @@ import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by newbiechen on 17-5-13.
+ * Created by xiaojian on 17-5-13.
  */
 
 public abstract class BaseService extends Service {

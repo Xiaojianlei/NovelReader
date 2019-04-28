@@ -1,12 +1,12 @@
-package com.example.newbiechen.ireader.model.bean.packages;
+package com.test.xiaojian.simple_reader.model.bean.packages;
 
-import com.example.newbiechen.ireader.model.bean.BaseBean;
-import com.example.newbiechen.ireader.model.bean.BookListBean;
+import com.test.xiaojian.simple_reader.model.bean.BaseBean;
+import com.test.xiaojian.simple_reader.model.bean.BookListBean;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-5-4.
+ * Created by xiaojian on 17-5-4.
  */
 
 public class RecommendBookListPackage extends BaseBean {

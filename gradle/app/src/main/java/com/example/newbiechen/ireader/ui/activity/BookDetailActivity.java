@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -15,29 +15,29 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.BookDetailBean;
-import com.example.newbiechen.ireader.model.bean.BookListBean;
-import com.example.newbiechen.ireader.model.bean.CollBookBean;
-import com.example.newbiechen.ireader.model.bean.HotCommentBean;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.presenter.BookDetailPresenter;
-import com.example.newbiechen.ireader.presenter.contract.BookDetailContract;
-import com.example.newbiechen.ireader.ui.adapter.BookListAdapter;
-import com.example.newbiechen.ireader.ui.adapter.HotCommentAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPActivity;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.utils.StringUtils;
-import com.example.newbiechen.ireader.utils.ToastUtils;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.BookDetailBean;
+import com.test.xiaojian.simple_reader.model.bean.BookListBean;
+import com.test.xiaojian.simple_reader.model.bean.CollBookBean;
+import com.test.xiaojian.simple_reader.model.bean.HotCommentBean;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.presenter.BookDetailPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.BookDetailContract;
+import com.test.xiaojian.simple_reader.ui.adapter.BookListAdapter;
+import com.test.xiaojian.simple_reader.ui.adapter.HotCommentAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPActivity;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.StringUtils;
+import com.test.xiaojian.simple_reader.utils.ToastUtils;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
 
 import java.util.List;
 
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-5-4.
+ * Created by xiaojian on 17-5-4.
  */
 
 public class BookDetailActivity extends BaseMVPActivity<BookDetailContract.Presenter>

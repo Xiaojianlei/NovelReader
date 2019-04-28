@@ -1,13 +1,13 @@
-package com.example.newbiechen.ireader.ui.fragment;
+package com.test.xiaojian.simple_reader.ui.fragment;
 
-import com.example.newbiechen.ireader.ui.adapter.FileSystemAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseFragment;
+import com.test.xiaojian.simple_reader.ui.adapter.FileSystemAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseFragment;
 
 import java.io.File;
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-7-10.
+ * Created by xiaojian on 17-7-10.
  * FileSystemActivity的基础Fragment类
  */
 

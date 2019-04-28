@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,21 +8,21 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.BillBookBean;
-import com.example.newbiechen.ireader.presenter.BillBookPresenter;
-import com.example.newbiechen.ireader.presenter.contract.BillBookContract;
-import com.example.newbiechen.ireader.ui.adapter.BillBookAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPActivity;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.BillBookBean;
+import com.test.xiaojian.simple_reader.presenter.BillBookPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.BillBookContract;
+import com.test.xiaojian.simple_reader.ui.adapter.BillBookAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPActivity;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
 
 import java.util.List;
 
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-5-3.
+ * Created by xiaojian on 17-5-3.
  */
 
 public class OtherBillBookActivity extends BaseMVPActivity<BillBookContract.Presenter>

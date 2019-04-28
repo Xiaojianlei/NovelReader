@@ -1,24 +1,24 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.packages.BookSortPackage;
-import com.example.newbiechen.ireader.model.bean.BookSubSortBean;
-import com.example.newbiechen.ireader.model.bean.packages.BookSubSortPackage;
-import com.example.newbiechen.ireader.presenter.BookSortPresenter;
-import com.example.newbiechen.ireader.presenter.contract.BookSortContract;
-import com.example.newbiechen.ireader.ui.adapter.BookSortAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPActivity;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerGridItemDecoration;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookSortPackage;
+import com.test.xiaojian.simple_reader.model.bean.BookSubSortBean;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookSubSortPackage;
+import com.test.xiaojian.simple_reader.presenter.BookSortPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.BookSortContract;
+import com.test.xiaojian.simple_reader.ui.adapter.BookSortAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPActivity;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerGridItemDecoration;
 
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-4-23.
+ * Created by xiaojian on 17-4-23.
  * 分类选择
  *
  */

@@ -1,8 +1,8 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 import android.support.annotation.StringRes;
 
-import com.example.newbiechen.ireader.App;
+import com.test.xiaojian.simple_reader.App;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -14,10 +14,10 @@ import android.content.Context;
 import com.zqc.opencc.android.lib.ChineseConverter;
 import com.zqc.opencc.android.lib.ConversionType;
 
-import static com.example.newbiechen.ireader.model.local.ReadSettingManager.SHARED_READ_CONVERT_TYPE;
+import static com.test.xiaojian.simple_reader.model.local.ReadSettingManager.SHARED_READ_CONVERT_TYPE;
 
 /**
- * Created by newbiechen on 17-4-22.
+ * Created by xiaojian on 17-4-22.
  * 对文字操作的工具类
  */
 

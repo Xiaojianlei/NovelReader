@@ -1,13 +1,13 @@
-package com.example.newbiechen.ireader.presenter.contract;
+package com.test.xiaojian.simple_reader.presenter.contract;
 
-import com.example.newbiechen.ireader.model.bean.CommentBean;
-import com.example.newbiechen.ireader.model.bean.ReviewDetailBean;
-import com.example.newbiechen.ireader.ui.base.BaseContract;
+import com.test.xiaojian.simple_reader.model.bean.CommentBean;
+import com.test.xiaojian.simple_reader.model.bean.ReviewDetailBean;
+import com.test.xiaojian.simple_reader.ui.base.BaseContract;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-4-30.
+ * Created by xiaojian on 17-4-30.
  */
 
 public interface ReviewDetailContract {

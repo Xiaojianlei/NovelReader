@@ -1,15 +1,15 @@
-package com.example.newbiechen.ireader.ui.fragment;
+package com.test.xiaojian.simple_reader.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.ui.adapter.FileSystemAdapter;
-import com.example.newbiechen.ireader.utils.media.MediaStoreHelper;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.ui.adapter.FileSystemAdapter;
+import com.test.xiaojian.simple_reader.utils.media.MediaStoreHelper;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
 
 import java.io.File;
 import java.util.List;
@@ -17,7 +17,7 @@ import java.util.List;
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-5-27.
+ * Created by xiaojian on 17-5-27.
  * 本地书籍
  */
 

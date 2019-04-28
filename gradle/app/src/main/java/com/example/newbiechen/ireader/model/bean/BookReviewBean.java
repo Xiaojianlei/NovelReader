@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Id;
@@ -7,13 +7,13 @@ import org.greenrobot.greendao.annotation.Generated;
 import org.greenrobot.greendao.annotation.Keep;
 import org.greenrobot.greendao.annotation.ToOne;
 import org.greenrobot.greendao.DaoException;
-import com.example.newbiechen.ireader.model.gen.DaoSession;
-import com.example.newbiechen.ireader.model.gen.BookHelpfulBeanDao;
-import com.example.newbiechen.ireader.model.gen.BookReviewBeanDao;
-import com.example.newbiechen.ireader.model.gen.ReviewBookBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.DaoSession;
+import com.test.xiaojian.simple_reader.model.gen.BookHelpfulBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.BookReviewBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.ReviewBookBeanDao;
 
 /**
- * Created by newbiechen on 17-4-21.
+ * Created by xiaojian on 17-4-21.
  * 书籍类别讨论
  */
 @Entity

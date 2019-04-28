@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.base.adapter;
+package com.test.xiaojian.simple_reader.ui.base.adapter;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by newbiechen on 17-5-5.
+ * Created by xiaojian on 17-5-5.
  * 用于头标签 + 表格的布局View
  */
 

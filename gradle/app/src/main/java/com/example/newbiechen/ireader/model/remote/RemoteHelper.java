@@ -1,8 +1,8 @@
-package com.example.newbiechen.ireader.model.remote;
+package com.test.xiaojian.simple_reader.model.remote;
 
 import android.util.Log;
 
-import com.example.newbiechen.ireader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.Constant;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by newbiechen on 17-4-20.
+ * Created by xiaojian on 17-4-20.
  */
 
 public class RemoteHelper {

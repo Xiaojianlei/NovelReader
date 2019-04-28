@@ -1,11 +1,11 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.support.v4.content.ContextCompat;
 
 /**
- * Created by newbiechen on 2017/10/8.
+ * Created by xiaojian on 2017/10/8.
  */
 
 public class PermissionsChecker {

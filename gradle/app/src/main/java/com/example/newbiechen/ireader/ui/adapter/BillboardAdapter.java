@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.adapter;
+package com.test.xiaojian.simple_reader.ui.adapter;
 
 import android.content.Context;
 import android.util.Log;
@@ -10,9 +10,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.BillboardBean;
-import com.example.newbiechen.ireader.utils.Constant;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.BillboardBean;
+import com.test.xiaojian.simple_reader.utils.Constant;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -21,7 +21,7 @@ import java.util.List;
 import butterknife.ButterKnife;
 
 /**
- * Created by newbiechen on 17-4-23.
+ * Created by xiaojian on 17-4-23.
  */
 
 public class BillboardAdapter extends BaseExpandableListAdapter {

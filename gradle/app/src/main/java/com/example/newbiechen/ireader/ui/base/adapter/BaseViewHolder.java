@@ -1,10 +1,10 @@
-package com.example.newbiechen.ireader.ui.base.adapter;
+package com.test.xiaojian.simple_reader.ui.base.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by newbiechen on 17-5-17.
+ * Created by xiaojian on 17-5-17.
  */
 
 public class BaseViewHolder<T> extends RecyclerView.ViewHolder{

@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.model.local.update;
+package com.test.xiaojian.simple_reader.model.local.update;
 
 import android.database.Cursor;
 import android.text.TextUtils;
@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by newbiechen on 2017/10/9.
+ * Created by xiaojian on 2017/10/9.
  * 数据库更新策略
  */
 

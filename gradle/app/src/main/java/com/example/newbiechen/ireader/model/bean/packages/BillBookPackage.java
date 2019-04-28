@@ -1,13 +1,13 @@
-package com.example.newbiechen.ireader.model.bean.packages;
+package com.test.xiaojian.simple_reader.model.bean.packages;
 
-import com.example.newbiechen.ireader.model.bean.BaseBean;
-import com.example.newbiechen.ireader.model.bean.BillBookBean;
+import com.test.xiaojian.simple_reader.model.bean.BaseBean;
+import com.test.xiaojian.simple_reader.model.bean.BillBookBean;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-5-3.
+ * Created by xiaojian on 17-5-3.
  * BillboardBookPackage
  */
 

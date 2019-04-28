@@ -1,23 +1,23 @@
-package com.example.newbiechen.ireader.ui.fragment;
+package com.test.xiaojian.simple_reader.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.RxBus;
-import com.example.newbiechen.ireader.event.BookSubSortEvent;
-import com.example.newbiechen.ireader.model.bean.BookListBean;
-import com.example.newbiechen.ireader.model.flag.BookListType;
-import com.example.newbiechen.ireader.presenter.BookListPresenter;
-import com.example.newbiechen.ireader.presenter.contract.BookListContract;
-import com.example.newbiechen.ireader.ui.activity.BookListDetailActivity;
-import com.example.newbiechen.ireader.ui.adapter.BookListAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPFragment;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
-import com.example.newbiechen.ireader.widget.adapter.WholeAdapter;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.RxBus;
+import com.test.xiaojian.simple_reader.event.BookSubSortEvent;
+import com.test.xiaojian.simple_reader.model.bean.BookListBean;
+import com.test.xiaojian.simple_reader.model.flag.BookListType;
+import com.test.xiaojian.simple_reader.presenter.BookListPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.BookListContract;
+import com.test.xiaojian.simple_reader.ui.activity.BookListDetailActivity;
+import com.test.xiaojian.simple_reader.ui.adapter.BookListAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPFragment;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.widget.adapter.WholeAdapter;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
 
 import java.util.List;
 
@@ -26,7 +26,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by newbiechen on 17-5-1.
+ * Created by xiaojian on 17-5-1.
  * 书单页面
  */
 

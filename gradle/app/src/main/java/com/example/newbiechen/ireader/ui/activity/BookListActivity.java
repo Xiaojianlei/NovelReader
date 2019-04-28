@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -9,17 +9,17 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.CheckBox;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.RxBus;
-import com.example.newbiechen.ireader.event.BookSubSortEvent;
-import com.example.newbiechen.ireader.model.bean.BookTagBean;
-import com.example.newbiechen.ireader.model.flag.BookListType;
-import com.example.newbiechen.ireader.model.remote.RemoteRepository;
-import com.example.newbiechen.ireader.ui.adapter.HorizonTagAdapter;
-import com.example.newbiechen.ireader.ui.adapter.TagGroupAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseTabActivity;
-import com.example.newbiechen.ireader.ui.fragment.BookListFragment;
-import com.example.newbiechen.ireader.utils.LogUtils;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.RxBus;
+import com.test.xiaojian.simple_reader.event.BookSubSortEvent;
+import com.test.xiaojian.simple_reader.model.bean.BookTagBean;
+import com.test.xiaojian.simple_reader.model.flag.BookListType;
+import com.test.xiaojian.simple_reader.model.remote.RemoteRepository;
+import com.test.xiaojian.simple_reader.ui.adapter.HorizonTagAdapter;
+import com.test.xiaojian.simple_reader.ui.adapter.TagGroupAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseTabActivity;
+import com.test.xiaojian.simple_reader.ui.fragment.BookListFragment;
+import com.test.xiaojian.simple_reader.utils.LogUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -32,7 +32,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by newbiechen on 17-5-1.
+ * Created by xiaojian on 17-5-1.
  */
 
 public class BookListActivity extends BaseTabActivity {

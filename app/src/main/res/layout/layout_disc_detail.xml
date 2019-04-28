@@ -52,7 +52,7 @@
 		android:textColor="@color/nb.text.default"
 		android:textSize="16dp" />
 	
-	<com.example.newbiechen.ireader.widget.BookTextView
+	<com.test.xiaojian.simple_reader.widget.BookTextView
 		android:id="@+id/disc_detail_btv_content"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"

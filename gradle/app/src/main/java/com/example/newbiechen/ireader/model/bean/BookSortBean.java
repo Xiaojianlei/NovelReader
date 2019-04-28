@@ -1,9 +1,9 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
 import org.greenrobot.greendao.annotation.Entity;
 
 /**
- * Created by newbiechen on 17-4-23.
+ * Created by xiaojian on 17-4-23.
  */
 public class BookSortBean {
     /**

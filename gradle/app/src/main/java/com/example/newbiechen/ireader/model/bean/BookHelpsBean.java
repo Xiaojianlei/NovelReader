@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Id;
@@ -7,12 +7,12 @@ import org.greenrobot.greendao.annotation.Generated;
 import org.greenrobot.greendao.annotation.Keep;
 import org.greenrobot.greendao.annotation.ToOne;
 import org.greenrobot.greendao.DaoException;
-import com.example.newbiechen.ireader.model.gen.DaoSession;
-import com.example.newbiechen.ireader.model.gen.AuthorBeanDao;
-import com.example.newbiechen.ireader.model.gen.BookHelpsBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.DaoSession;
+import com.test.xiaojian.simple_reader.model.gen.AuthorBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.BookHelpsBeanDao;
 
 /**
- * Created by newbiechen on 17-4-20.
+ * Created by xiaojian on 17-4-20.
  */
 @Entity
 public class BookHelpsBean {

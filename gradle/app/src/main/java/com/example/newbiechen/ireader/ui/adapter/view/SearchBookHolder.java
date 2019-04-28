@@ -1,18 +1,18 @@
-package com.example.newbiechen.ireader.ui.adapter.view;
+package com.test.xiaojian.simple_reader.ui.adapter.view;
 
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.packages.SearchBookPackage;
-import com.example.newbiechen.ireader.ui.base.adapter.ViewHolderImpl;
-import com.example.newbiechen.ireader.utils.Constant;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.packages.SearchBookPackage;
+import com.test.xiaojian.simple_reader.ui.base.adapter.ViewHolderImpl;
+import com.test.xiaojian.simple_reader.utils.Constant;
 
 import org.w3c.dom.Text;
 
 /**
- * Created by newbiechen on 17-6-2.
+ * Created by xiaojian on 17-6-2.
  */
 
 public class SearchBookHolder extends ViewHolderImpl<SearchBookPackage.BooksBean> {

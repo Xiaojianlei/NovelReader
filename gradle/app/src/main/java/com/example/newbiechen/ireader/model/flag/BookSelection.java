@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.model.flag;
+package com.test.xiaojian.simple_reader.model.flag;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 
 
 /**
- * Created by newbiechen on 17-4-24.
+ * Created by xiaojian on 17-4-24.
  */
 
 public enum  BookSelection {

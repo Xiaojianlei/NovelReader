@@ -1,26 +1,26 @@
-package com.example.newbiechen.ireader.model.local;
+package com.test.xiaojian.simple_reader.model.local;
 
-import com.example.newbiechen.ireader.model.bean.AuthorBean;
-import com.example.newbiechen.ireader.model.bean.DownloadTaskBean;
-import com.example.newbiechen.ireader.model.bean.packages.BillboardPackage;
-import com.example.newbiechen.ireader.model.bean.ReviewBookBean;
-import com.example.newbiechen.ireader.model.bean.BookCommentBean;
-import com.example.newbiechen.ireader.model.bean.BookHelpfulBean;
-import com.example.newbiechen.ireader.model.bean.BookHelpsBean;
-import com.example.newbiechen.ireader.model.bean.BookReviewBean;
-import com.example.newbiechen.ireader.model.bean.packages.BookSortPackage;
-import com.example.newbiechen.ireader.model.flag.BookSort;
-import com.example.newbiechen.ireader.model.gen.AuthorBeanDao;
+import com.test.xiaojian.simple_reader.model.bean.AuthorBean;
+import com.test.xiaojian.simple_reader.model.bean.DownloadTaskBean;
+import com.test.xiaojian.simple_reader.model.bean.packages.BillboardPackage;
+import com.test.xiaojian.simple_reader.model.bean.ReviewBookBean;
+import com.test.xiaojian.simple_reader.model.bean.BookCommentBean;
+import com.test.xiaojian.simple_reader.model.bean.BookHelpfulBean;
+import com.test.xiaojian.simple_reader.model.bean.BookHelpsBean;
+import com.test.xiaojian.simple_reader.model.bean.BookReviewBean;
+import com.test.xiaojian.simple_reader.model.bean.packages.BookSortPackage;
+import com.test.xiaojian.simple_reader.model.flag.BookSort;
+import com.test.xiaojian.simple_reader.model.gen.AuthorBeanDao;
 
-import com.example.newbiechen.ireader.model.gen.BookCommentBeanDao;
-import com.example.newbiechen.ireader.model.gen.BookHelpfulBeanDao;
-import com.example.newbiechen.ireader.model.gen.BookHelpsBeanDao;
-import com.example.newbiechen.ireader.model.gen.BookReviewBeanDao;
-import com.example.newbiechen.ireader.model.gen.DaoSession;
-import com.example.newbiechen.ireader.model.gen.ReviewBookBeanDao;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.utils.LogUtils;
-import com.example.newbiechen.ireader.utils.SharedPreUtils;
+import com.test.xiaojian.simple_reader.model.gen.BookCommentBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.BookHelpfulBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.BookHelpsBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.BookReviewBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.DaoSession;
+import com.test.xiaojian.simple_reader.model.gen.ReviewBookBeanDao;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.LogUtils;
+import com.test.xiaojian.simple_reader.utils.SharedPreUtils;
 import com.google.gson.Gson;
 
 import org.greenrobot.greendao.Property;
@@ -36,7 +36,7 @@ import io.reactivex.SingleEmitter;
 import io.reactivex.SingleOnSubscribe;
 
 /**
- * Created by newbiechen on 17-4-26.
+ * Created by xiaojian on 17-4-26.
  */
 
 public class LocalRepository implements SaveDbHelper,GetDbHelper,DeleteDbHelper{

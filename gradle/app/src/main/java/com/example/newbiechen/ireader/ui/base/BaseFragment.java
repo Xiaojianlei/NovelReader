@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.base;
+package com.test.xiaojian.simple_reader.ui.base;
 
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
@@ -14,7 +14,7 @@ import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by newbiechen on 17-3-31.
+ * Created by xiaojian on 17-3-31.
  */
 
 public abstract class BaseFragment extends Fragment{

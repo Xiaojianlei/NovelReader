@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 /**
  * 编码类型

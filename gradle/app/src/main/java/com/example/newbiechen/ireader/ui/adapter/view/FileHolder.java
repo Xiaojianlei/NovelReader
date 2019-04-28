@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.adapter.view;
+package com.test.xiaojian.simple_reader.ui.adapter.view;
 
 import android.view.View;
 import android.widget.CheckBox;
@@ -6,19 +6,19 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.ui.base.adapter.ViewHolderImpl;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.utils.FileUtils;
-import com.example.newbiechen.ireader.utils.MD5Utils;
-import com.example.newbiechen.ireader.utils.StringUtils;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.ui.base.adapter.ViewHolderImpl;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.FileUtils;
+import com.test.xiaojian.simple_reader.utils.MD5Utils;
+import com.test.xiaojian.simple_reader.utils.StringUtils;
 
 import java.io.File;
 import java.util.HashMap;
 
 /**
- * Created by newbiechen on 17-5-27.
+ * Created by xiaojian on 17-5-27.
  */
 
 public class FileHolder extends ViewHolderImpl<File> {

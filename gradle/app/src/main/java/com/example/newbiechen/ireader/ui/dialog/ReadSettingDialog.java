@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.dialog;
+package com.test.xiaojian.simple_reader.ui.dialog;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -19,16 +19,16 @@ import android.widget.RadioGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.local.ReadSettingManager;
-import com.example.newbiechen.ireader.ui.activity.MoreSettingActivity;
-import com.example.newbiechen.ireader.ui.activity.ReadActivity;
-import com.example.newbiechen.ireader.ui.adapter.PageStyleAdapter;
-import com.example.newbiechen.ireader.utils.BrightnessUtils;
-import com.example.newbiechen.ireader.utils.ScreenUtils;
-import com.example.newbiechen.ireader.widget.page.PageLoader;
-import com.example.newbiechen.ireader.widget.page.PageMode;
-import com.example.newbiechen.ireader.widget.page.PageStyle;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.local.ReadSettingManager;
+import com.test.xiaojian.simple_reader.ui.activity.MoreSettingActivity;
+import com.test.xiaojian.simple_reader.ui.activity.ReadActivity;
+import com.test.xiaojian.simple_reader.ui.adapter.PageStyleAdapter;
+import com.test.xiaojian.simple_reader.utils.BrightnessUtils;
+import com.test.xiaojian.simple_reader.utils.ScreenUtils;
+import com.test.xiaojian.simple_reader.widget.page.PageLoader;
+import com.test.xiaojian.simple_reader.widget.page.PageMode;
+import com.test.xiaojian.simple_reader.widget.page.PageStyle;
 
 import java.util.Arrays;
 
@@ -36,7 +36,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by newbiechen on 17-5-18.
+ * Created by xiaojian on 17-5-18.
  */
 
 public class ReadSettingDialog extends Dialog {

@@ -1,10 +1,10 @@
-package com.example.newbiechen.ireader.ui.adapter;
+package com.test.xiaojian.simple_reader.ui.adapter;
 
-import com.example.newbiechen.ireader.model.bean.CollBookBean;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.ui.adapter.view.FileHolder;
-import com.example.newbiechen.ireader.ui.base.adapter.BaseListAdapter;
-import com.example.newbiechen.ireader.ui.base.adapter.IViewHolder;
+import com.test.xiaojian.simple_reader.model.bean.CollBookBean;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.ui.adapter.view.FileHolder;
+import com.test.xiaojian.simple_reader.ui.base.adapter.BaseListAdapter;
+import com.test.xiaojian.simple_reader.ui.base.adapter.IViewHolder;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by newbiechen on 17-5-27.
+ * Created by xiaojian on 17-5-27.
  */
 
 public class FileSystemAdapter extends BaseListAdapter<File>{

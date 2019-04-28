@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -8,12 +8,12 @@ import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.View;
 
-import com.example.newbiechen.ireader.App;
+import com.test.xiaojian.simple_reader.App;
 
 import java.lang.reflect.Method;
 
 /**
- * Created by newbiechen on 17-5-1.
+ * Created by xiaojian on 17-5-1.
  */
 
 public class ScreenUtils {

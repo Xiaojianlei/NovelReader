@@ -1,13 +1,13 @@
-package com.example.newbiechen.ireader.model.flag;
+package com.test.xiaojian.simple_reader.model.flag;
 
 import android.support.annotation.DrawableRes;
 import android.support.annotation.StringRes;
 
-import com.example.newbiechen.ireader.App;
-import com.example.newbiechen.ireader.R;
+import com.test.xiaojian.simple_reader.App;
+import com.test.xiaojian.simple_reader.R;
 
 /**
- * Created by newbiechen on 17-4-25.
+ * Created by xiaojian on 17-4-25.
  */
 
 public enum FindType {

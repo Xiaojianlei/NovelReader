@@ -1,14 +1,14 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 import android.app.Activity;
 import android.os.Build;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.example.newbiechen.ireader.R;
+import com.test.xiaojian.simple_reader.R;
 
 /**
- * Created by newbiechen on 17-5-16.
+ * Created by xiaojian on 17-5-16.
  * 基于 Android 4.4
  *
  * 主要参数说明:

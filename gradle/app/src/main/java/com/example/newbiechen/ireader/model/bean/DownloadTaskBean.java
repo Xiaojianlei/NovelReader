@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
 import android.util.Log;
 
@@ -11,12 +11,12 @@ import java.util.List;
 import java.util.function.Consumer;
 
 import org.greenrobot.greendao.DaoException;
-import com.example.newbiechen.ireader.model.gen.DaoSession;
-import com.example.newbiechen.ireader.model.gen.BookChapterBeanDao;
-import com.example.newbiechen.ireader.model.gen.DownloadTaskBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.DaoSession;
+import com.test.xiaojian.simple_reader.model.gen.BookChapterBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.DownloadTaskBeanDao;
 
 /**
- * Created by newbiechen on 17-5-11.
+ * Created by xiaojian on 17-5-11.
  */
 @Entity
 public class DownloadTaskBean{

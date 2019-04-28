@@ -1,7 +1,7 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
 /**
- * Created by newbiechen on 17-5-3.
+ * Created by xiaojian on 17-5-3.
  * 排行榜的书籍 (不被公用的直接作为内部类)
  */
 

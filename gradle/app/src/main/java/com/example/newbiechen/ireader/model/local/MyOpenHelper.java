@@ -1,16 +1,16 @@
-package com.example.newbiechen.ireader.model.local;
+package com.test.xiaojian.simple_reader.model.local;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.newbiechen.ireader.model.gen.DaoMaster;
-import com.example.newbiechen.ireader.model.local.update.MigrationHelper;
-import com.example.newbiechen.ireader.model.local.update.Update2Helper;
+import com.test.xiaojian.simple_reader.model.gen.DaoMaster;
+import com.test.xiaojian.simple_reader.model.local.update.MigrationHelper;
+import com.test.xiaojian.simple_reader.model.local.update.Update2Helper;
 
 import org.greenrobot.greendao.database.Database;
 
 /**
- * Created by newbiechen on 2017/10/9.
+ * Created by xiaojian on 2017/10/9.
  */
 
 public class MyOpenHelper extends DaoMaster.DevOpenHelper{

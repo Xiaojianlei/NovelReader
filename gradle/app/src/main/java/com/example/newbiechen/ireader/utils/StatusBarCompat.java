@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.example.newbiechen.ireader.R;
+import com.test.xiaojian.simple_reader.R;
 
 /**
- * Created by newbiechen on 17-4-15.
+ * Created by xiaojian on 17-4-15.
  */
 
 public class StatusBarCompat

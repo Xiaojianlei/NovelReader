@@ -5,7 +5,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion rootProject.ext.buildToolsVersion
     defaultConfig {
-        applicationId 'com.example.newbiechen.ireader'
+        applicationId 'com.test.xiaojian.simple_reader'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -30,7 +30,7 @@ android {
 
 greendao{
     schemaVersion 3
-    daoPackage 'com.example.newbiechen.ireader.model.gen'
+    daoPackage 'com.test.xiaojian.simple_reader.model.gen'
     targetGenDir 'src/main/java'
 }
 

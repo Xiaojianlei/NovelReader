@@ -1,8 +1,8 @@
-package com.example.newbiechen.ireader.utils;
+package com.test.xiaojian.simple_reader.utils;
 
 import android.os.Environment;
 
-import com.example.newbiechen.ireader.App;
+import com.test.xiaojian.simple_reader.App;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -21,7 +21,7 @@ import io.reactivex.SingleEmitter;
 import io.reactivex.SingleOnSubscribe;
 
 /**
- * Created by newbiechen on 17-5-11.
+ * Created by xiaojian on 17-5-11.
  */
 
 public class FileUtils {

@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.fragment;
+package com.test.xiaojian.simple_reader.ui.fragment;
 
 import android.os.Bundle;
 import android.os.Environment;
@@ -6,12 +6,12 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.ui.adapter.FileSystemAdapter;
-import com.example.newbiechen.ireader.utils.FileStack;
-import com.example.newbiechen.ireader.utils.FileUtils;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.ui.adapter.FileSystemAdapter;
+import com.test.xiaojian.simple_reader.utils.FileStack;
+import com.test.xiaojian.simple_reader.utils.FileUtils;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -26,7 +26,7 @@ import java.util.Set;
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-5-27.
+ * Created by xiaojian on 17-5-27.
  */
 
 public class FileCategoryFragment extends BaseFileFragment {

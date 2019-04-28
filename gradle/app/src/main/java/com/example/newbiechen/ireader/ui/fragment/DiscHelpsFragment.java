@@ -1,24 +1,24 @@
-package com.example.newbiechen.ireader.ui.fragment;
+package com.test.xiaojian.simple_reader.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.RxBus;
-import com.example.newbiechen.ireader.event.SelectorEvent;
-import com.example.newbiechen.ireader.model.bean.BookHelpsBean;
-import com.example.newbiechen.ireader.model.flag.BookDistillate;
-import com.example.newbiechen.ireader.model.flag.BookSort;
-import com.example.newbiechen.ireader.model.flag.CommunityType;
-import com.example.newbiechen.ireader.presenter.DiscHelpsPresenter;
-import com.example.newbiechen.ireader.presenter.contract.DiscHelpsContract;
-import com.example.newbiechen.ireader.ui.activity.DiscDetailActivity;
-import com.example.newbiechen.ireader.ui.adapter.DiscHelpsAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPFragment;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.widget.itemdecoration.DividerItemDecoration;
-import com.example.newbiechen.ireader.widget.refresh.ScrollRefreshRecyclerView;
-import com.example.newbiechen.ireader.widget.adapter.WholeAdapter;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.RxBus;
+import com.test.xiaojian.simple_reader.event.SelectorEvent;
+import com.test.xiaojian.simple_reader.model.bean.BookHelpsBean;
+import com.test.xiaojian.simple_reader.model.flag.BookDistillate;
+import com.test.xiaojian.simple_reader.model.flag.BookSort;
+import com.test.xiaojian.simple_reader.model.flag.CommunityType;
+import com.test.xiaojian.simple_reader.presenter.DiscHelpsPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.DiscHelpsContract;
+import com.test.xiaojian.simple_reader.ui.activity.DiscDetailActivity;
+import com.test.xiaojian.simple_reader.ui.adapter.DiscHelpsAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPFragment;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.widget.itemdecoration.DividerItemDecoration;
+import com.test.xiaojian.simple_reader.widget.refresh.ScrollRefreshRecyclerView;
+import com.test.xiaojian.simple_reader.widget.adapter.WholeAdapter;
 
 import java.util.List;
 
@@ -27,7 +27,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by newbiechen on 17-4-21.
+ * Created by xiaojian on 17-4-21.
  */
 
 public class DiscHelpsFragment extends BaseMVPFragment<DiscHelpsContract.Presenter> implements DiscHelpsContract.View{

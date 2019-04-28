@@ -1,16 +1,16 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.view.View;
 import android.widget.ExpandableListView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.BillboardBean;
-import com.example.newbiechen.ireader.model.bean.packages.BillboardPackage;
-import com.example.newbiechen.ireader.presenter.BillboardPresenter;
-import com.example.newbiechen.ireader.presenter.contract.BillboardContract;
-import com.example.newbiechen.ireader.ui.adapter.BillboardAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPActivity;
-import com.example.newbiechen.ireader.widget.RefreshLayout;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.BillboardBean;
+import com.test.xiaojian.simple_reader.model.bean.packages.BillboardPackage;
+import com.test.xiaojian.simple_reader.presenter.BillboardPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.BillboardContract;
+import com.test.xiaojian.simple_reader.ui.adapter.BillboardAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPActivity;
+import com.test.xiaojian.simple_reader.widget.RefreshLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ import java.util.List;
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-4-23.
+ * Created by xiaojian on 17-4-23.
  * 数据的初始化，Expand的配置
  * 1. 查看Api制作数据Bean，制作相应的Adapter
  * 2. 初始化Expandable

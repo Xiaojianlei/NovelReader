@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.base.adapter;
+package com.test.xiaojian.simple_reader.ui.base.adapter;
 
 import android.os.Handler;
 import android.support.v7.widget.RecyclerView;
@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-3-21.
+ * Created by xiaojian on 17-3-21.
  */
 
 public abstract class BaseListAdapter <T> extends RecyclerView.Adapter<RecyclerView.ViewHolder>{

@@ -1,7 +1,7 @@
-package com.example.newbiechen.ireader.event;
+package com.test.xiaojian.simple_reader.event;
 
 /**
- * Created by newbiechen on 17-5-10.
+ * Created by xiaojian on 17-5-10.
  * 下载进度事件
  */
 

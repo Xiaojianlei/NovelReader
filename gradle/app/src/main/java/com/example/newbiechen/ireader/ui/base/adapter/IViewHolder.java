@@ -1,10 +1,10 @@
-package com.example.newbiechen.ireader.ui.base.adapter;
+package com.test.xiaojian.simple_reader.ui.base.adapter;
 
 import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by newbiechen on 17-5-17.
+ * Created by xiaojian on 17-5-17.
  */
 
 public interface IViewHolder<T> {

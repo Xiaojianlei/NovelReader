@@ -1,11 +1,11 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
-import com.example.newbiechen.ireader.model.bean.BaseBean;
+import com.test.xiaojian.simple_reader.model.bean.BaseBean;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-5-4.
+ * Created by xiaojian on 17-5-4.
  */
 
 public class BookDetailBean{

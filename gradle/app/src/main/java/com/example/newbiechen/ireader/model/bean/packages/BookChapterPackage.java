@@ -1,13 +1,13 @@
-package com.example.newbiechen.ireader.model.bean.packages;
+package com.test.xiaojian.simple_reader.model.bean.packages;
 
-import com.example.newbiechen.ireader.model.bean.BaseBean;
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.model.bean.BaseBean;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-5-10.
+ * Created by xiaojian on 17-5-10.
  */
 
 public class BookChapterPackage extends BaseBean {

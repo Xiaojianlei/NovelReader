@@ -1,12 +1,12 @@
-package com.example.newbiechen.ireader.model.local;
+package com.test.xiaojian.simple_reader.model.local;
 
-import com.example.newbiechen.ireader.utils.ScreenUtils;
-import com.example.newbiechen.ireader.utils.SharedPreUtils;
-import com.example.newbiechen.ireader.widget.page.PageMode;
-import com.example.newbiechen.ireader.widget.page.PageStyle;
+import com.test.xiaojian.simple_reader.utils.ScreenUtils;
+import com.test.xiaojian.simple_reader.utils.SharedPreUtils;
+import com.test.xiaojian.simple_reader.widget.page.PageMode;
+import com.test.xiaojian.simple_reader.widget.page.PageStyle;
 
 /**
- * Created by newbiechen on 17-5-17.
+ * Created by xiaojian on 17-5-17.
  * 阅读器的配置管理
  */
 

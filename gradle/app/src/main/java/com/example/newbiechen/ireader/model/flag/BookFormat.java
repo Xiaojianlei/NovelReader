@@ -1,7 +1,7 @@
-package com.example.newbiechen.ireader.model.flag;
+package com.test.xiaojian.simple_reader.model.flag;
 
 /**
- * Created by newbiechen on 2018/1/14.
+ * Created by xiaojian on 2018/1/14.
  */
 
 public enum BookFormat {

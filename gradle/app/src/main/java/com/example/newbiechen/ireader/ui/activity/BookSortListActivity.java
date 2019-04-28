@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,14 +8,14 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.RxBus;
-import com.example.newbiechen.ireader.event.BookSubSortEvent;
-import com.example.newbiechen.ireader.model.bean.BookSubSortBean;
-import com.example.newbiechen.ireader.model.flag.BookSortListType;
-import com.example.newbiechen.ireader.ui.adapter.HorizonTagAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseTabActivity;
-import com.example.newbiechen.ireader.ui.fragment.BookSortListFragment;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.RxBus;
+import com.test.xiaojian.simple_reader.event.BookSubSortEvent;
+import com.test.xiaojian.simple_reader.model.bean.BookSubSortBean;
+import com.test.xiaojian.simple_reader.model.flag.BookSortListType;
+import com.test.xiaojian.simple_reader.ui.adapter.HorizonTagAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseTabActivity;
+import com.test.xiaojian.simple_reader.ui.fragment.BookSortListFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,7 @@ import java.util.List;
 import butterknife.BindView;
 
 /**
- * Created by newbiechen on 17-4-24.
+ * Created by xiaojian on 17-4-24.
  * Book Sort List: 分类书籍列表
  */
 

@@ -1,18 +1,18 @@
-package com.example.newbiechen.ireader.ui.adapter;
+package com.test.xiaojian.simple_reader.ui.adapter;
 
 import android.support.v7.widget.RecyclerView;
 
-import com.example.newbiechen.ireader.model.bean.BookTagBean;
-import com.example.newbiechen.ireader.ui.adapter.view.TagChildHolder;
-import com.example.newbiechen.ireader.ui.adapter.view.TagGroupHolder;
-import com.example.newbiechen.ireader.ui.base.adapter.IViewHolder;
-import com.example.newbiechen.ireader.ui.base.adapter.GroupAdapter;
+import com.test.xiaojian.simple_reader.model.bean.BookTagBean;
+import com.test.xiaojian.simple_reader.ui.adapter.view.TagChildHolder;
+import com.test.xiaojian.simple_reader.ui.adapter.view.TagGroupHolder;
+import com.test.xiaojian.simple_reader.ui.base.adapter.IViewHolder;
+import com.test.xiaojian.simple_reader.ui.base.adapter.GroupAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-5-5.
+ * Created by xiaojian on 17-5-5.
  * BookListTagGroup
  */
 

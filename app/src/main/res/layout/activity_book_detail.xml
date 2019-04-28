@@ -8,7 +8,7 @@
 
 	<include layout="@layout/toolbar"/>
 	
-	<com.example.newbiechen.ireader.widget.RefreshLayout
+	<com.test.xiaojian.simple_reader.widget.RefreshLayout
 		android:id="@+id/refresh_layout"
 		android:layout_width="match_parent"
 		android:layout_height="0dp"
@@ -271,7 +271,7 @@
 					android:background="@color/nb.divider.wide" />
 			</LinearLayout>
 		</ScrollView>
-	</com.example.newbiechen.ireader.widget.RefreshLayout>
+	</com.test.xiaojian.simple_reader.widget.RefreshLayout>
 </LinearLayout>
 
 

@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.Manifest;
 import android.content.Intent;
@@ -18,16 +18,16 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.local.Void;
-import com.example.newbiechen.ireader.utils.PermissionsChecker;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.local.Void;
+import com.test.xiaojian.simple_reader.utils.PermissionsChecker;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 /**
- * Created by newbiechen on 17-4-14.
+ * Created by xiaojian on 17-4-14.
  */
 
 public class SplashActivity extends AppCompatActivity {

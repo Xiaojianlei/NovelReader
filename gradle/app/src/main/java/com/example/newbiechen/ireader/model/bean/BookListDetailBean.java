@@ -1,9 +1,9 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-5-2.
+ * Created by xiaojian on 17-5-2.
  */
 
 public class BookListDetailBean {

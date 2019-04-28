@@ -1,12 +1,12 @@
-package com.example.newbiechen.ireader.model.bean;
+package com.test.xiaojian.simple_reader.model.bean;
 
 import android.support.annotation.DrawableRes;
 import android.support.annotation.StringRes;
 
-import com.example.newbiechen.ireader.App;
+import com.test.xiaojian.simple_reader.App;
 
 /**
- * Created by newbiechen on 17-4-16.
+ * Created by xiaojian on 17-4-16.
  */
 
 public class SectionBean {

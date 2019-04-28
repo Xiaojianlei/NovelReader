@@ -1,13 +1,13 @@
-package com.example.newbiechen.ireader.ui.adapter.view;
+package com.test.xiaojian.simple_reader.ui.adapter.view;
 
 import android.widget.TextView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.BookSortBean;
-import com.example.newbiechen.ireader.ui.base.adapter.ViewHolderImpl;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.BookSortBean;
+import com.test.xiaojian.simple_reader.ui.base.adapter.ViewHolderImpl;
 
 /**
- * Created by newbiechen on 17-4-23.
+ * Created by xiaojian on 17-4-23.
  */
 
 public class BookSortHolder extends ViewHolderImpl<BookSortBean>{

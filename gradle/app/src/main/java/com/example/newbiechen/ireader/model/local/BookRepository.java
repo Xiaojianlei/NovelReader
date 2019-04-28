@@ -1,20 +1,20 @@
-package com.example.newbiechen.ireader.model.local;
+package com.test.xiaojian.simple_reader.model.local;
 
 import android.util.Log;
 
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
-import com.example.newbiechen.ireader.model.bean.BookRecordBean;
-import com.example.newbiechen.ireader.model.bean.ChapterInfoBean;
-import com.example.newbiechen.ireader.model.bean.CollBookBean;
-import com.example.newbiechen.ireader.model.gen.BookChapterBeanDao;
-import com.example.newbiechen.ireader.model.gen.BookRecordBeanDao;
-import com.example.newbiechen.ireader.model.gen.CollBookBeanDao;
-import com.example.newbiechen.ireader.model.gen.DaoSession;
-import com.example.newbiechen.ireader.model.gen.DownloadTaskBeanDao;
-import com.example.newbiechen.ireader.utils.BookManager;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.utils.FileUtils;
-import com.example.newbiechen.ireader.utils.IOUtils;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.model.bean.BookRecordBean;
+import com.test.xiaojian.simple_reader.model.bean.ChapterInfoBean;
+import com.test.xiaojian.simple_reader.model.bean.CollBookBean;
+import com.test.xiaojian.simple_reader.model.gen.BookChapterBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.BookRecordBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.CollBookBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.DaoSession;
+import com.test.xiaojian.simple_reader.model.gen.DownloadTaskBeanDao;
+import com.test.xiaojian.simple_reader.utils.BookManager;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.FileUtils;
+import com.test.xiaojian.simple_reader.utils.IOUtils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -32,7 +32,7 @@ import io.reactivex.SingleEmitter;
 import io.reactivex.SingleOnSubscribe;
 
 /**
- * Created by newbiechen on 17-5-8.
+ * Created by xiaojian on 17-5-8.
  * 存储关于书籍内容的信息(CollBook(收藏书籍),BookChapter(书籍列表),ChapterInfo(书籍章节),BookRecord(记录))
  */
 

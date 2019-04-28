@@ -1,12 +1,12 @@
-package com.example.newbiechen.ireader.event;
+package com.test.xiaojian.simple_reader.event;
 
-import com.example.newbiechen.ireader.model.flag.BookDistillate;
-import com.example.newbiechen.ireader.model.flag.BookSort;
-import com.example.newbiechen.ireader.model.flag.BookType;
-import com.example.newbiechen.ireader.utils.Constant;
+import com.test.xiaojian.simple_reader.model.flag.BookDistillate;
+import com.test.xiaojian.simple_reader.model.flag.BookSort;
+import com.test.xiaojian.simple_reader.model.flag.BookType;
+import com.test.xiaojian.simple_reader.utils.Constant;
 
 /**
- * Created by newbiechen on 17-4-21.
+ * Created by xiaojian on 17-4-21.
  */
 
 public class SelectorEvent {

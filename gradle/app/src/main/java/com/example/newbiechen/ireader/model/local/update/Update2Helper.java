@@ -1,12 +1,12 @@
-package com.example.newbiechen.ireader.model.local.update;
+package com.test.xiaojian.simple_reader.model.local.update;
 
 import android.database.Cursor;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.example.newbiechen.ireader.model.gen.BookChapterBeanDao;
-import com.example.newbiechen.ireader.model.gen.CollBookBeanDao;
-import com.example.newbiechen.ireader.utils.MD5Utils;
+import com.test.xiaojian.simple_reader.model.gen.BookChapterBeanDao;
+import com.test.xiaojian.simple_reader.model.gen.CollBookBeanDao;
+import com.test.xiaojian.simple_reader.utils.MD5Utils;
 
 import org.greenrobot.greendao.AbstractDao;
 import org.greenrobot.greendao.database.Database;
@@ -19,7 +19,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by newbiechen on 2018/1/5.
+ * Created by xiaojian on 2018/1/5.
  * 由于 BookChapterBean 做了一次表的大更改，所以需要自定义更新。
  * 作用：将数据库2.0 升级到 3.0
  */

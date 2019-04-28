@@ -1,17 +1,17 @@
-package com.example.newbiechen.ireader.ui.base;
+package com.test.xiaojian.simple_reader.ui.base;
 
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
 
-import com.example.newbiechen.ireader.ui.base.adapter.IViewHolder;
+import com.test.xiaojian.simple_reader.ui.base.adapter.IViewHolder;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by newbiechen on 17-6-5.
+ * Created by xiaojian on 17-6-5.
  * ListView 使用的Adapter
  */
 

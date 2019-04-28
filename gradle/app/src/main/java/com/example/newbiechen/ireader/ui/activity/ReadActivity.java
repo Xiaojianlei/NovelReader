@@ -1,4 +1,4 @@
-package com.example.newbiechen.ireader.ui.activity;
+package com.test.xiaojian.simple_reader.ui.activity;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -32,26 +32,26 @@ import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.example.newbiechen.ireader.R;
-import com.example.newbiechen.ireader.model.bean.BookChapterBean;
-import com.example.newbiechen.ireader.model.bean.CollBookBean;
-import com.example.newbiechen.ireader.model.local.BookRepository;
-import com.example.newbiechen.ireader.model.local.ReadSettingManager;
-import com.example.newbiechen.ireader.presenter.ReadPresenter;
-import com.example.newbiechen.ireader.presenter.contract.ReadContract;
-import com.example.newbiechen.ireader.ui.adapter.CategoryAdapter;
-import com.example.newbiechen.ireader.ui.base.BaseMVPActivity;
-import com.example.newbiechen.ireader.ui.dialog.ReadSettingDialog;
-import com.example.newbiechen.ireader.utils.BrightnessUtils;
-import com.example.newbiechen.ireader.utils.Constant;
-import com.example.newbiechen.ireader.utils.LogUtils;
-import com.example.newbiechen.ireader.utils.RxUtils;
-import com.example.newbiechen.ireader.utils.ScreenUtils;
-import com.example.newbiechen.ireader.utils.StringUtils;
-import com.example.newbiechen.ireader.utils.SystemBarUtils;
-import com.example.newbiechen.ireader.widget.page.PageLoader;
-import com.example.newbiechen.ireader.widget.page.PageView;
-import com.example.newbiechen.ireader.widget.page.TxtChapter;
+import com.test.xiaojian.simple_reader.R;
+import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
+import com.test.xiaojian.simple_reader.model.bean.CollBookBean;
+import com.test.xiaojian.simple_reader.model.local.BookRepository;
+import com.test.xiaojian.simple_reader.model.local.ReadSettingManager;
+import com.test.xiaojian.simple_reader.presenter.ReadPresenter;
+import com.test.xiaojian.simple_reader.presenter.contract.ReadContract;
+import com.test.xiaojian.simple_reader.ui.adapter.CategoryAdapter;
+import com.test.xiaojian.simple_reader.ui.base.BaseMVPActivity;
+import com.test.xiaojian.simple_reader.ui.dialog.ReadSettingDialog;
+import com.test.xiaojian.simple_reader.utils.BrightnessUtils;
+import com.test.xiaojian.simple_reader.utils.Constant;
+import com.test.xiaojian.simple_reader.utils.LogUtils;
+import com.test.xiaojian.simple_reader.utils.RxUtils;
+import com.test.xiaojian.simple_reader.utils.ScreenUtils;
+import com.test.xiaojian.simple_reader.utils.StringUtils;
+import com.test.xiaojian.simple_reader.utils.SystemBarUtils;
+import com.test.xiaojian.simple_reader.widget.page.PageLoader;
+import com.test.xiaojian.simple_reader.widget.page.PageView;
+import com.test.xiaojian.simple_reader.widget.page.TxtChapter;
 
 import java.util.List;
 
@@ -63,7 +63,7 @@ import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 
 /**
- * Created by newbiechen on 17-5-16.
+ * Created by xiaojian on 17-5-16.
  */
 
 public class ReadActivity extends BaseMVPActivity<ReadContract.Presenter>

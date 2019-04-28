@@ -1,7 +1,7 @@
-package com.example.newbiechen.ireader.ui.base;
+package com.test.xiaojian.simple_reader.ui.base;
 
 /**
- * Created by newbiechen on 17-4-26.
+ * Created by xiaojian on 17-4-26.
  */
 
 public interface BaseContract {
