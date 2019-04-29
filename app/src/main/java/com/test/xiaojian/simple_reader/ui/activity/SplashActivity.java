@@ -32,7 +32,6 @@ public class SplashActivity extends AppCompatActivity {
 
     @BindView(R.id.splash_tv_skip)
     TextView mTvSkip;
-
     private Unbinder unbinder;
     private Runnable skipRunnable;
     private PermissionsChecker mPermissionsChecker;

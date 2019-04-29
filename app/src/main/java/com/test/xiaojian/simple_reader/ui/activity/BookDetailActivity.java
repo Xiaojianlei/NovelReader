@@ -150,6 +150,8 @@ public class BookDetailActivity extends BaseMVPActivity<BookDetailContract.Prese
 
                         isCollected = false;
                     } else {
+                        mCollBookBean.setLastRead(StringUtils.
+                                dateConvert(System.currentTimeMillis(), Constant.FORMAT_BOOK_DATE));
                         mPresenter.addToBookShelf(mCollBookBean);
                         mTvChase.setText(getResources().getString(R.string.nb_book_detail_give_up));
 
@@ -252,6 +254,8 @@ public class BookDetailActivity extends BaseMVPActivity<BookDetailContract.Prese
         if (mProgressDialog == null) {
             mProgressDialog = new ProgressDialog(this);
             mProgressDialog.setTitle("正在添加到书架中");
+
+
         }
         mProgressDialog.show();
     }

@@ -5,7 +5,7 @@
                 android:layout_height="match_parent"
                 android:background="@mipmap/bg_splash">
 
-    <TextView
+    <ImageView
         android:id="@+id/splash_tv_skip"
         android:layout_width="60dp"
         android:layout_height="30dp"
