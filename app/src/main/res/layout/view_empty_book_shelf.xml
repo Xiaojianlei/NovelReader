@@ -28,17 +28,5 @@
 			android:text="添加你喜爱的小说"
 			android:textColor="@color/nb.text.common_h2"
 			android:textSize="16sp"/>
-		
-		<TextView
-			android:id="@+id/book_shelf_tv_add"
-			android:layout_width="150dp"
-			android:layout_height="wrap_content"
-			android:background="@drawable/shape_common_green_corner"
-			android:clickable="true"
-			android:drawableLeft="@drawable/ic_book_list_add"
-			android:drawablePadding="5dp"
-			android:padding="10dp"
-			android:text="去添加"
-			android:textColor="@color/white"/>
 	</LinearLayout>
 </RelativeLayout>
