@@ -5,7 +5,6 @@
     <!--string_array-->
     <string-array name="nb_fragment_title">
         <item>@string/nb.fragment.title.bookshelf</item>
-        <item>@string/nb.fragment.title.community</item>
         <item>@string/nb.fragment.title.find</item>
     </string-array>
 
@@ -49,7 +48,6 @@
     
     <!--fragment_title:主页的名字-->
     <string name="nb.fragment.title.bookshelf">書架</string>
-    <string name="nb.fragment.title.community">社區</string>
     <string name="nb.fragment.title.find">發現</string>
 
     <!--fragment-->

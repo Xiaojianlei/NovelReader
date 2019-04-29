@@ -84,7 +84,7 @@ public class MainActivity extends BaseTabActivity{
     protected void initWidget() {
         super.initWidget();
         //性别选择框
-        showSexChooseDialog();
+        //showSexChooseDialog();
     }
 
     private void showSexChooseDialog(){

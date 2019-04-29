@@ -9,9 +9,6 @@
         android:supportsRtl="true"
         android:name="com.test.xiaojian.simple_reader.App"
         android:theme="@style/AppTheme">
-        <activity android:name="com.test.xiaojian.simple_reader.ui.activity.SplashActivity"
-            android:theme="@style/SplashTheme">
-        </activity>
         <activity android:name="com.test.xiaojian.simple_reader.ui.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

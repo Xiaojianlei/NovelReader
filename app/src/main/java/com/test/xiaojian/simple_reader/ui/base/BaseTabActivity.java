@@ -40,8 +40,7 @@ public abstract class BaseTabActivity extends BaseActivity {
     private void setUpTabLayout(){
         mFragmentList = createTabFragments();
         mTitleList = createTabTitles();
-
-
+        checkParamsIsRight();
 
         TabFragmentPageAdapter adapter = new TabFragmentPageAdapter(getSupportFragmentManager());
         mVp.setAdapter(adapter);
