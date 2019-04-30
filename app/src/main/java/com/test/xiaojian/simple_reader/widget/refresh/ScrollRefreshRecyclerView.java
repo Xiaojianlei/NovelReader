@@ -111,6 +111,7 @@ public class ScrollRefreshRecyclerView extends ScrollRefreshLayout {
 
         private void update(){
             int count = mRecyclerView.getAdapter().getItemCount();
+            Log.d("共有item"," :"+count);
             if (count == 0){
                 showEmptyView();
                 mRecyclerView.setVisibility(GONE);

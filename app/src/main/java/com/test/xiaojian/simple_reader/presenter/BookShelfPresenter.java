@@ -1,5 +1,7 @@
 package com.test.xiaojian.simple_reader.presenter;
 
+import android.util.Log;
+
 import com.test.xiaojian.simple_reader.RxBus;
 import com.test.xiaojian.simple_reader.model.bean.BookChapterBean;
 import com.test.xiaojian.simple_reader.model.bean.BookDetailBean;
@@ -86,7 +88,13 @@ public class BookShelfPresenter extends RxPresenter<BookShelfContract.View>
     //需要修改
     @Override
     public void updateCollBooks(List<CollBookBean> collBookBeans) {
-        if (collBookBeans == null || collBookBeans.isEmpty()) return;
+        if (collBookBeans == null || collBookBeans.isEmpty()) {
+            Log.d("书籍为空", "-----------");
+            mView.finishUpdate();
+            mView.complete();//没书籍时也完成，不然会一直刷新
+            return;
+
+        }
         List<CollBookBean> collBooks = new ArrayList<>(collBookBeans);
         List<Single<BookDetailBean>> observables = new ArrayList<>(collBooks.size());
         Iterator<CollBookBean> it = collBooks.iterator();

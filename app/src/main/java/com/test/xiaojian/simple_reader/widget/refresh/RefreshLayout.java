@@ -93,6 +93,7 @@ public abstract class RefreshLayout extends FrameLayout {
     public void showLoading(){
         if (mStatus != STATUS_LOADING){
             toggleStatus(STATUS_LOADING);
+
         }
     }
 
