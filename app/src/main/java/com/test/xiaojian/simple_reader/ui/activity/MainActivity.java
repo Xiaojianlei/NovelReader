@@ -24,8 +24,6 @@ import com.test.xiaojian.simple_reader.ui.fragment.BookShelfFragment;
 import com.test.xiaojian.simple_reader.ui.fragment.FindFragment;
 import com.test.xiaojian.simple_reader.utils.Constant;
 import com.test.xiaojian.simple_reader.utils.PermissionsChecker;
-import com.test.xiaojian.simple_reader.utils.SharedPreUtils;
-import com.test.xiaojian.simple_reader.ui.dialog.SexChooseDialog;
 import com.test.xiaojian.simple_reader.utils.ToastUtils;
 
 import java.lang.reflect.Method;
@@ -83,20 +81,9 @@ public class MainActivity extends BaseTabActivity{
     @Override
     protected void initWidget() {
         super.initWidget();
-        //性别选择框
-        //showSexChooseDialog();
     }
 
-    private void showSexChooseDialog(){
-        String sex = SharedPreUtils.getInstance()
-                .getString(Constant.SHARED_SEX);
-        if (sex.equals("")){
-            mVp.postDelayed(()-> {
-                Dialog dialog = new SexChooseDialog(this);
-                dialog.show();
-            },500);
-        }
-    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
