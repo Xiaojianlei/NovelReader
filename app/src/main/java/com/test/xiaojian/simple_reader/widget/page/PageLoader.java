@@ -10,6 +10,7 @@ import android.graphics.RectF;
 import android.graphics.Typeface;
 import android.support.v4.content.ContextCompat;
 import android.text.TextPaint;
+import android.util.Log;
 
 import com.test.xiaojian.simple_reader.model.bean.BookRecordBean;
 import com.test.xiaojian.simple_reader.model.bean.CollBookBean;
