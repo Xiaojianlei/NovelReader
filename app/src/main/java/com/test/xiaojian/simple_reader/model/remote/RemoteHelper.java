@@ -1,7 +1,9 @@
 package com.test.xiaojian.simple_reader.model.remote;
 
 import android.util.Log;
+import android.webkit.WebSettings;
 
+import com.test.xiaojian.simple_reader.App;
 import com.test.xiaojian.simple_reader.utils.Constant;
 
 import java.io.IOException;
@@ -29,7 +31,12 @@ public class RemoteHelper {
                         new Interceptor() {
                             @Override
                             public Response intercept(Chain chain) throws IOException {
-                                Request request = chain.request();
+                                Request request = chain.request()
+                                        .newBuilder()
+                                        .removeHeader("User-Agent")
+                                        .addHeader("User-Agent", WebSettings.getDefaultUserAgent(App.getContext()))//添加真正的头部
+                                        .build();
+
 
                                 //在这里获取到request后就可以做任何事情了
                                 Response response = chain.proceed(request);
@@ -38,7 +45,6 @@ public class RemoteHelper {
                             }
                         }
                 ).build();
-
         mRetrofit = new Retrofit.Builder()
                 .client(mOkHttpClient)
                 .addConverterFactory(GsonConverterFactory.create())
